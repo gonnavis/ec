@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<{header}>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="images/css.css"/>
+
+</head>
+<body>
+  <!-- fixed部分 -->
+    <div class="indexfix" id="indexfix">
+      <div class="top"></div>
+      <div class="cent">
+        <{widgets id="fudong2s"}>
+      </div>
+      <div class="bot"><a href="javascript:scroll(0,0)"></a></div>
+    </div>
+  <!--  -->
+  <div class="indextop">
+    <div class="topmain mu">
+      <div class="tmleft fl">
+        <div class="topbarmem topbarmemt fl"><{widgets id="topbarmem1"}></div>
+        
+      </div>
+      <div class="tmright fr">
+        <div class="toplist fr"><{widgets id="toplist1"}></div>
+        <div class="carttop fr"><{widgets id="carttop1"}></div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 顶部结束 -->
+  <div class="indexlog">
+    <div class="logmain mu">
+      <div class="logobox fl"><{widgets id="logo1"}></div>
+      <div class="topsearch fl"><{widgets id="topsearch1"}></div>
+      <div class="hotline fr"><{widgets id="hotline1"}></div>
+    </div>
+  </div>
+  <!-- logo结束 -->
+  <div class="indexcont mu">
+    <div class="indexnav clearfix">
+      <div class="navfenlei fl" id="allgoods"><{widgets id="navgen1"}></div>
+      <div class="navmain fr"><{widgets id="navs1"}></div>
+    </div>
+    <script type="text/javascript">
+            window.addEvent('domready', function() {
+                $('allgoods').getElement('.allsort_out').setStyle('display','none');
+                
+                $('allgoods').addEvent('mouseenter',function(){
+                    this.getElement('.allsort_out').setStyle('display','block');
+                });
+
+                $('allgoods').addEvent('mouseleave',function(){
+                    this.getElement('.allsort_out').setStyle('display','none');
+                })
+            })
+</script>

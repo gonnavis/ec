@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+body,nav,dl,dt,dd,p,h1,h2,h3,h4,ul,ol,li,input,button,textarea,footer{margin:0;padding:0}
+body{font:16px/1.5 'Microsoft Yahei','Simsun';  color:#333;background:#fff;-webkit-text-size-adjust: none; min-width:320px;}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+form{display:inline}
+ul,ol{list-style:none}
+a{text-decoration:none;color:#1a1a1a}
+a:hover, a:active, a:focus{color:#1c5aa2;text-decoration: none;}
+a:active{color:#aaa;}
+img{vertical-align:middle;border:0;-ms-interpolation-mode:bicubic;}
+button,input,select,textarea{font-size:100%; vertical-align:middle;outline:none;}
+textarea{resize:none}
+button,input[type="button"],input[type="reset"],input[type="submit"] {cursor:pointer;-webkit-appearance:button;-moz-appearance:button}
+input:focus:-moz-placeholder,input:focus::-webkit-input-placeholder {color:transparent}
+button::-moz-focus-inner,input::-moz-focus-inner { padding:0; border:0}
+table { border-collapse:collapse; border-spacing:0}
+.fl{float:left;}.fr{float:right;}.hide{display:none;}.show{display: block;}
+.ellipsis { white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+.break { word-break:break-all; word-wrap:break-word}
+header, footer, article, section, nav, menu, hgroup {display: block;clear:all;}
+
+
+/*移动端开始*/
+/*公用*/
+body{
+font-family: Helvetica,STHeiti STXihei,Microsoft JhengHei,Microsoft YaHei,Tohoma,Arial;
+font-size: 16px;
+line-height: 1.5;}
+.container{max-width: 640px;margin:0 auto;}
+.fl{float: left;}
+.fr{float: right;}
+
+/*公用头部*/
+.header{position: relative;padding-top:15px;height: 40px;background: #f7f7f7;}
+.logobox{position:absolute;width: 120px;top:15px;left: 6px;}
+.logobox img{width: 120px;}
+.search{background:#fff;margin-left:140px;border-radius: 5px;border:1px solid #e5e5e5;margin-right:5px;position: relative;padding:0px 0 0 2px;}
+
+.search .search_input{border:none;width: 90%;margin-top:0;height:1.5em;}
+.search .search_btn{position: absolute;right: 2px;top: 1px;border:none;width:20px;height: 20px;background: url('index_03.jpg') no-repeat;background-size:100%; }
+
+/*公用底部*/
+.footer{overflow:hidden;font-size:12px;background: #f3f3f3;border-top:1px solid #cdcdcd;line-height: 40px;height: 40px;padding:0 10px;color: #666;}
+.login a{color: #666;}
+.gotop a{color: #666;}
+.gotop{padding-left: 26px;background: url('index_30.jpg') no-repeat 0 10px;}
+
+
+/*首页*/
+.mainbox .focus_pic img{width: 100%;}
+.mainbox .toplist{margin:0 5px;overflow: hidden;margin-bottom: 10px;}
+.mainbox .toplist .top_ico{float: left;width: 25%;text-align: center;padding-top:20px;}
+.mainbox .toplist .top_ico img{width: 50%;}
+.mainbox .toplist .toptitle{margin-top:5px;}
+
+.goodslist h3{height: 40px;line-height: 40px;background: #f7f7f7;border-bottom: 1px solid #cdcdcd;padding-left: 15px;}
+.goodslist{position: relative;}
+.goodslist s{display: block;left: 0;top:10px;height: 20px;width: 4px;background: #ff6d00;position: absolute;}
+
+.goodsbox li{padding:15px;overflow: hidden;border-bottom: 1px solid #efefef;}
+.goodsbox li .goodspic{float:left;width: 130px;height: 130px;margin-right:10px;}
+.goodsbox li .goodspic img{width: 130px;height: 130px;}
+.goodsbox li .goodstitle{height: 3em;line-height: 1.5em;margin-bottom: 10px;}
+.goodsbox li .goodsprice{font-size: 1.2em;color: #ff5640;}
+.goodsbox li .go_btn{border-radius: 5px;width: 120px;text-align: center;color: #fff;line-height: 30px;height: 30px;background: #ff5640;margin-left:140px;margin-top:5px;font-size:14px;}
+.goodsbox li a{display:block;}
+.midpics{margin:10px;overflow: hidden;}
+.midpics .piclist{width: 50%;}
+.midpics .piclist img{width: 97%}
+.slider .slider-list{position: relative;}
+
+.slider-list li.slider-item{float: left;}
+.mainbox .focus_pic img{width: 100%;}
+.slider-point{position: absolute;bottom: 5px;z-index: 999;width: 100%;}
+.focus_pic .main-banner{position: relative;}
+.slider-point span.act{background: #97d84e;box-shadow: none;-webkit-box-shadow:none;-moz-box-shadow:none;}
+.slider-point span{box-shadow: none;-webkit-box-shadow:none;-moz-box-shadow:none;background: #fff;}
+
+.bottom_info{overflow: hidden;height: 0;}
+
+/*商品详情页*/
+.pt-sku{display: none;}

@@ -1,0 +1,83 @@
+<style>
+  #ex_slide_<{$widgets_id}>{ 
+    width: 100%;
+    height:<{$data.height}>px;
+    overflow:hidden;
+    position:relative;
+  }
+  #ex_slide_<{$widgets_id}> ul.switchable-content li{
+    height:<{$data.height}>px;
+    list-style:none; 
+    display:block;
+    overflow:hidden;
+    border:0;
+    margin:0;
+  }
+
+ #ex_slide_<{$widgets_id}>  .switchable-triggerBox{position: absolute;z-index:200;
+  bottom:60px;text-align:center;left:12%;width:1440px;}
+ #ex_slide_<{$widgets_id}>  .switchable-triggerBox li{
+    background-color:#c7c7c7;
+    border-radius: 9px 9px 9px 9px;
+    
+    display:inline-block;*zoom:1;*display:inline;
+    font-size: 10px;
+    height:16px;
+    line-height:16px;
+    margin-left: 7px;
+    text-align: center;
+    width:16px;
+    text-indent: -9999px;
+    opacity:1;
+    z-index: 99;overflow:hidden;
+  }
+  #ex_slide_<{$widgets_id}>  .scroller{width: 100%;height:<{$data.height}>px;}
+  #ex_slide_<{$widgets_id}>  .switchable-triggerBox li.active{
+    background-color: #1e98d1;
+    color: #1e98d1;
+    cursor:pointer;
+    opacity:1;
+  }
+
+
+</style>
+
+<div id="ex_slide_<{$widgets_id}>" class="section scrollable auto-bind-widget" data-widget-type="Switchable" data-widget-config="">
+    <div class="arr_left png"></div>
+    <div class="arr_right png"></div>
+    <div class="scroller">
+        <ul class="switchable-content">
+            <{foreach from=$data.pic item=parent key=parentId}>
+                <li class="switchable-panel">
+                  <a href="<{$parent.linktarget}>" style="display:block;height:<{$data.height}>px;background:url('<{$parent.link}>') no-repeat center top;">
+                        
+                  </a>
+                </li>
+            <{/foreach}>
+        </ul>
+        <ul class="switchable-triggerBox">
+          <{assign var=countnum value="1"}>
+          <{foreach from=$data.pic item=parent key=parentId}>
+                <li><{$countnum++}></li> 
+          <{/foreach}> 
+        </ul>
+        
+    </div>
+</div>
+<script type="text/javascript">
+
+    
+    
+    document.addEvent("domready",function(){
+
+    var bodywidth = window.getSize().x;
+
+
+    $('ex_slide_<{$widgets_id}>').getElements('.switchable-panel').setStyle('width',bodywidth);
+
+        $('ex_slide_<{$widgets_id}>').set('data-widget-config',"{effect:'<{$setting.switcheffect}>',steps:1,haslrbtn:true,viewSize:["+bodywidth+",<{$data.height}>],prev:'.arr_left',next:'.arr_right'}");
+
+        
+    });
+
+</script>

@@ -1,0 +1,80 @@
+<div id="changeimg">
+    <div id="org_img">
+        <a href="<{$setting.org_pic_link}>" target="_blank">
+            <img data-src="<{$setting.org_pic|storager}>" alt="<{$setting.org_pic_txt}>" 
+            <{if $setting.org_pic_width}>width="<{$setting.org_pic_width}>"<{/if}> 
+            <{if $setting.org_pic_height}>height="<{$setting.org_pic_height}>"<{/if}> />
+        </a>
+        
+    </div>
+    <div id="act_img">
+        <a href="<{$setting.ad_pic_link}>" target="_blank">
+            <img id="act_pic" data-src="<{$setting.act_pic|storager}>" alt="<{$setting.act_pic_txt}>" 
+            <{if $setting.act_pic_width}>width="<{$setting.act_pic_width}>"<{/if}> 
+            <{if $setting.act_pic_height}>height="<{$setting.act_pic_height}>"<{/if}> />
+      </a>
+  
+    </div>
+    <input type="text" id="from_time" hidden="hidden" value="<{$setting.act_pic_from_time}>"/>
+    <input type="text" id="from_hour" hidden="hidden" value="<{$setting.from_hour}>"/>
+    <input type="text" id="from_min" hidden="hidden" value="<{$setting.from_min}>"/>
+    <input type="text" id="to_time" hidden="hidden" value="<{$setting.act_pic_to_time}>"/>
+    <input type="text" id="to_hour" hidden="hidden" value="<{$setting.to_hour}>"/>
+    <input type="text" id="to_min" hidden="hidden" value="<{$setting.to_min}>"/>
+</div>
+<script language="javascript">
+
+
+display();
+
+function display(){
+    var nowtime = Date.parse(new Date())/1000;
+    
+    var orgpic = document.getElementById("org_img");
+    var actpic = document.getElementById("act_pic");
+   
+    var fromdate = document.getElementById("from_time").value;
+    var fromhour = hm_form(document.getElementById("from_hour").value);
+    var frommin = hm_form(document.getElementById("from_min").value);
+    var fromtimestr = fromdate+" "+fromhour+":"+frommin+":"+"00";
+    //alert(fromtimestr); 
+    var todate = document.getElementById("to_time").value;
+    var tohour = hm_form(document.getElementById("to_hour").value);
+    var tomin = hm_form(document.getElementById("to_min").value);
+    var totimestr = todate+" "+tohour+":"+tomin+":"+"00";
+    //alert(totimestr);
+    var act_fromtime = get_unix_time(fromtimestr);
+    var act_totime = get_unix_time(totimestr);
+   
+    //var timestr = String(nowtime)+"|"+String(act_fromtime)+"|"+String(act_totime);
+    //alert(timestr);
+    if((nowtime>=act_fromtime)&&(nowtime<=act_totime))
+    {
+        //alert("act_pic");
+        orgpic.style.display = 'none';
+        actpic.style.display =  'block';
+    }else
+    {
+        //alert("org_pic");
+        orgpic.style.display = 'block';
+        actpic.style.display =  'none';
+    }
+}
+
+function get_unix_time(dateStr)
+{
+    var newstr = dateStr.replace(/-/g,'/'); 
+    var date =  new Date(newstr); 
+    var time_str = date.getTime()/1000;
+    return time_str;
+}
+
+function hm_form(hm)
+{
+    if(hm<10)
+    {
+        hm = "0"+hm;
+    }
+    return hm;
+}
+</script>

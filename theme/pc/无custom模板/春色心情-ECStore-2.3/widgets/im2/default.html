@@ -1,0 +1,76 @@
+<style>
+    #siderIMchat_widgets-<{$widgets_id}>{ z-index:65535; position:absolute;<{$setting.alignselect|default:'left'}>:0 ;}
+    #siderIMchat_hiddenbar_widgets-<{$widgets_id}>{ background:url("images/siderIM_hiddenBar.gif"); width:26px; height:136px;}
+    #siderIMchat-main-widgets-<{$widgets_id}>{width:170px; display:none; margin:0 10px}
+    #siderIMchat-main-widgets-<{$widgets_id}> .top{ background:url("images/siderIM_title.gif"); height:34px;}
+    #siderIMchat-main-widgets-<{$widgets_id}> .infobox{ text-align:center; background:#bdc5cb; background-image:url("images/siderIM_infobox.gif"); background-repeat:no-repeat;  padding:5px; line-height:14px; color:#000; font-weight:700;}
+    #siderIMchat-main-widgets-<{$widgets_id}> .bg{ background:url("images/siderIM_bg.gif"); padding:5px;}
+    #siderIMchat-main-widgets-<{$widgets_id}> ul li{margin-bottom:6px;}
+    #siderIMchat-main-widgets-<{$widgets_id}> .bottom{ background:url("images/siderIM_bottom.gif"); height:9px; overflow:hidden }
+</style>
+<div id="siderIMchat_widgets-<{$widgets_id}>" class="imtwo">
+    <div id="siderIMchat_hiddenbar_widgets-<{$widgets_id}>"></div>
+    <div id="siderIMchat-main-widgets-<{$widgets_id}>" class="imsmain">
+        <div class="top" style="display:none;"></div>
+        <div class="infobox">
+            <{$setting.titleexp}>
+        </div>
+        <div class="bg ">
+            <textarea class="action-lazyload" style="display:none">
+                <ul>
+                    <{foreach from=$data item=data key=key}>
+                    <li>
+                    <{if $data.type==1}>
+                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=<{$data.link}>&site=qq&menu=yes"><!-- <img border="0" src="http://wpa.qq.com/pa?p=2:<{$data.link}>:41 &r=0.8641202345024794" alt="<{$data.link}>" title="<{$data.link}>"><{$setting.plug}> --><{$data.info}></a>
+                    <{elseif $data.type==6}>
+                    <img  style="CURSOR: pointer" onclick="javascript:window.open('http://b.qq.com/webc.htm?new=0&sid=<{$data.link}>&eid=&o=&q=7&ref='+document.location, '_blank', 'height=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');"  border="0" src="http://im.bizapp.qq.com:8000/zx_qq.gif"><br /><{$data.info}>
+                    <{elseif $data.type==2}>
+                    <a href="msnim:chat?contact=<{$data.link}>"><img width="30" height="30" border="0" src="images/msn.png" title="<{$data.link}>"/><{$setting.plug}></a><br /><{$data.info}>
+                    <{elseif $data.type==3}>
+                    <a target="_blank" href="http://amos.im.alisoft.com/msg.aw?v=2&uid=<{$data.link|escape:'url'}>&site=cntaobao&s=1&charset=utf-8"><img border="0" src="http://amos.im.alisoft.com/online.aw?v=2&uid=<{$data.link|escape:'url'}>&site=cntaobao&s=1&charset=utf-8" title="<{$data.link}>"/><{$setting.plug}></a><br /><{$data.info}>
+                    <{elseif $data.type==4}>
+                    <a target="_blank" href="http://scs1.sh1.china.alibaba.com/msg.atc?v=1&uid=<{$data.link}>"><img border="0" src="images/ali.gif" title="<{$data.link}>"/><{$setting.plug}></a><br /><{$data.info}>
+                    <{elseif $data.type==5}>
+                    <a href="callto://<{$data.link}>"><img border="0" src="images/skype.gif" title="<{$data.link}>"/><{$setting.plug}></a><br /><{$data.info}>
+                    <{/if}>
+                    </li>
+                    <{/foreach}>
+                </ul>
+            </textarea>
+            <div class="textcenter mt10" style="display:none;"><span id="closeSiderIMchat_widgets-<{$widgets_id}>" class="lnk"><{t app='b2c'}>关闭在线客服<{/t}></span></div>
+            <div class="intops"><a href="javascript:scroll(0,0)"></a></div>
+        </div>
+        <div class="bottom" style="display:none;"></div>
+
+    </div>
+</div>
+
+<script>
+    window.addEvent('domready', function() {
+
+        var lazy=new LazyLoad();
+
+        $('siderIMchat_hiddenbar_widgets-<{$widgets_id}>').addEvent('mouseover',function(){
+            this.setStyle('display','none');
+            $('siderIMchat-main-widgets-<{$widgets_id}>').setStyle('display','block');
+            lazy.loadCustomLazyData($('siderIMchat-main-widgets-<{$widgets_id}>'),'textarea');
+        });
+
+        $('closeSiderIMchat_widgets-<{$widgets_id}>').addEvent('click',function(){
+            $('siderIMchat-main-widgets-<{$widgets_id}>').setStyle('display','none');
+            $('siderIMchat_hiddenbar_widgets-<{$widgets_id}>').setStyle('display','block')
+        })  ;
+
+
+
+        siderIMchatWidgetsetGoTop();
+    });
+
+    function siderIMchatWidgetsetGoTop(){
+        $('siderIMchat_widgets-<{$widgets_id}>').tween('top',$(document.body).getScroll().y+100)
+    }
+
+    window.addEvent('scroll',function(){
+        siderIMchatWidgetsetGoTop();
+    })
+</script>

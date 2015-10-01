@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8" ?><theme>
+	<name>春色心情</name>
+	<id>spring</id>
+	<version>ECStore 2.3</version>
+	<info>上海派浓网路科技有限公司</info>
+	<author>优品诚</author>
+	<site>http://www.upin99.com</site>
+	<update_url></update_url>
+
+	<borders>
+			</borders>
+	<views>
+			</views>
+	<config>	  
+			</config>
+
+	<widgets>
+				<widget app="" theme="waqiu" file="article-(1).html" slot="3" type="index_news" order="11" title="" domid="1422347974395" border="__none__" classname="" tpl="default.html" coreid="articls1">
+            <![CDATA[a:9:{s:7:&quot;node_id&quot;;s:1:&quot;1&quot;;s:14:&quot;stripparenturl&quot;;s:1:&quot;0&quot;;s:2:&quot;lv&quot;;s:1:&quot;2&quot;;s:10:&quot;showallart&quot;;s:1:&quot;0&quot;;s:5:&quot;limit&quot;;s:1:&quot;5&quot;;s:10:&quot;order_type&quot;;s:7:&quot;pubtime&quot;;s:5:&quot;order&quot;;s:3:&quot;asc&quot;;s:10:&quot;showuptime&quot;;s:1:&quot;0&quot;;s:8:&quot;shownode&quot;;s:1:&quot;1&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="article-(1).html" slot="1" type="custom_html" order="10" title="" domid="1422347922004" border="__none__" classname="" tpl="default.html" coreid="artleft_tl1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;购物指南&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="article-(1).html" slot="0" type="bread_crumbs" order="9" title="" domid="1422347870743" border="__none__" classname="" tpl="default.html" coreid="bread_crumbs">
+            <![CDATA[a:0:{}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="article-(1).html" slot="3" type="sales_rank" order="12" title="" domid="1422348287411" border="__none__" classname="" tpl="default.html" coreid="chanpins1">
+            <![CDATA[a:13:{s:10:&quot;block_name&quot;;s:12:&quot;产品推荐&quot;;s:5:&quot;limit&quot;;s:1:&quot;1&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="articlelist-(1).html" slot="1" type="index_news" order="11" title="" domid="1422344565454" border="__none__" classname="" tpl="default.html" coreid="articls1">
+            <![CDATA[a:9:{s:7:&quot;node_id&quot;;s:1:&quot;1&quot;;s:14:&quot;stripparenturl&quot;;s:1:&quot;0&quot;;s:2:&quot;lv&quot;;s:1:&quot;2&quot;;s:10:&quot;showallart&quot;;s:1:&quot;0&quot;;s:5:&quot;limit&quot;;s:1:&quot;5&quot;;s:10:&quot;order_type&quot;;s:7:&quot;pubtime&quot;;s:5:&quot;order&quot;;s:3:&quot;asc&quot;;s:10:&quot;showuptime&quot;;s:1:&quot;0&quot;;s:8:&quot;shownode&quot;;s:1:&quot;1&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="articlelist-(1).html" slot="1" type="custom_html" order="10" title="" domid="1422344927678" border="__none__" classname="" tpl="default.html" coreid="artleft_tl1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;购物指南&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="articlelist-(1).html" slot="0" type="bread_crumbs" order="9" title="" domid="1422344550050" border="__none__" classname="" tpl="default.html" coreid="bread_crumbs">
+            <![CDATA[a:0:{}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="articlelist-(1).html" slot="3" type="sales_rank" order="12" title="" domid="1422348366789" border="__none__" classname="" tpl="default.html" coreid="chanpins1">
+            <![CDATA[a:13:{s:10:&quot;block_name&quot;;s:12:&quot;产品推荐&quot;;s:5:&quot;limit&quot;;s:1:&quot;1&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/footer.html" slot="6" type="other_menut" order="18" title="" domid="1422263219905" border="__none__" classname="" tpl="default.html" coreid="ftdip1">
+            <![CDATA[a:2:{s:14:&quot;top_link_title&quot;;a:3:{i:0;s:51:&quot;网络文化经营许可证：文网文[2015]058号&quot;;i:1;s:50:&quot;增值电信业务经营许可证：湘-85308988-1&quot;;i:2;s:53:&quot;信息网络传播视听节目许可证：85308988号&quot;;}s:12:&quot;top_link_url&quot;;a:3:{i:0;s:0:&quot;&quot;;i:1;s:0:&quot;&quot;;i:2;s:0:&quot;&quot;;}}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/footer.html" slot="5" type="other_menu" order="17" title="" domid="1422263172505" border="__none__" classname="" tpl="default.html" coreid="ftlinks1">
+            <![CDATA[a:2:{s:14:&quot;top_link_title&quot;;a:8:{i:0;s:12:&quot;合作伙伴&quot;;i:1;s:12:&quot;营销中心&quot;;i:2;s:12:&quot;联系客服&quot;;i:3;s:12:&quot;开放平台&quot;;i:4;s:12:&quot;诚征英才&quot;;i:5;s:12:&quot;联系我们&quot;;i:6;s:12:&quot;网站地图&quot;;i:7;s:12:&quot;法律声明&quot;;}s:12:&quot;top_link_url&quot;;a:8:{i:0;s:0:&quot;&quot;;i:1;s:0:&quot;&quot;;i:2;s:0:&quot;&quot;;i:3;s:0:&quot;&quot;;i:4;s:0:&quot;&quot;;i:5;s:0:&quot;&quot;;i:6;s:0:&quot;&quot;;i:7;s:0:&quot;&quot;;}}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/footer.html" slot="0" type="footer_information" order="12" title="" domid="1422262988171" border="__none__" classname="" tpl="default.html" coreid="ftmlist1">
+            <![CDATA[a:5:{s:7:&quot;node_id&quot;;s:1:&quot;1&quot;;s:10:&quot;article_id&quot;;a:5:{i:0;s:2:&quot;51&quot;;i:1;s:2:&quot;50&quot;;i:2;s:2:&quot;49&quot;;i:3;s:2:&quot;48&quot;;i:4;s:2:&quot;47&quot;;}s:14:&quot;stripparenturl&quot;;s:1:&quot;0&quot;;s:10:&quot;order_type&quot;;s:7:&quot;pubtime&quot;;s:5:&quot;order&quot;;s:3:&quot;asc&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/footer.html" slot="1" type="footer_information" order="13" title="" domid="1422262998762" border="__none__" classname="" tpl="default.html" coreid="ftmlist2">
+            <![CDATA[a:5:{s:7:&quot;node_id&quot;;s:2:&quot;14&quot;;s:10:&quot;article_id&quot;;a:5:{i:0;s:2:&quot;50&quot;;i:1;s:2:&quot;46&quot;;i:2;s:2:&quot;45&quot;;i:3;s:2:&quot;43&quot;;i:4;s:2:&quot;42&quot;;}s:14:&quot;stripparenturl&quot;;s:1:&quot;0&quot;;s:10:&quot;order_type&quot;;s:7:&quot;pubtime&quot;;s:5:&quot;order&quot;;s:3:&quot;asc&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/footer.html" slot="2" type="footer_information" order="14" title="" domid="1422263016612" border="__none__" classname="" tpl="default.html" coreid="ftmlist3">
+            <![CDATA[a:5:{s:7:&quot;node_id&quot;;s:2:&quot;15&quot;;s:10:&quot;article_id&quot;;a:5:{i:0;s:2:&quot;41&quot;;i:1;s:2:&quot;40&quot;;i:2;s:2:&quot;39&quot;;i:3;s:2:&quot;38&quot;;i:4;s:2:&quot;37&quot;;}s:14:&quot;stripparenturl&quot;;s:1:&quot;0&quot;;s:10:&quot;order_type&quot;;s:7:&quot;pubtime&quot;;s:5:&quot;order&quot;;s:3:&quot;asc&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/footer.html" slot="3" type="footer_information" order="15" title="" domid="1422263031483" border="__none__" classname="" tpl="default.html" coreid="ftmlist4">
+            <![CDATA[a:5:{s:7:&quot;node_id&quot;;s:1:&quot;1&quot;;s:10:&quot;article_id&quot;;a:5:{i:0;s:2:&quot;44&quot;;i:1;s:2:&quot;43&quot;;i:2;s:2:&quot;41&quot;;i:3;s:2:&quot;40&quot;;i:4;s:2:&quot;39&quot;;}s:14:&quot;stripparenturl&quot;;s:1:&quot;0&quot;;s:10:&quot;order_type&quot;;s:7:&quot;pubtime&quot;;s:5:&quot;order&quot;;s:3:&quot;asc&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/footer.html" slot="4" type="ad_pic" order="16" title="" domid="1422263073173" border="__none__" classname="" tpl="default.html" coreid="ftmr_b1">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:25:&quot;%THEME%/images/maijia.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/footer.html" slot="0" type="ad_pic" order="11" title="" domid="1422498253256" border="__none__" classname="" tpl="default.html" coreid="ftpics1">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:25:&quot;%THEME%/images/ftpics.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/footer.html" slot="7" type="ad_pic" order="19" title="" domid="1422263235026" border="__none__" classname="" tpl="default.html" coreid="ftpoic1">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:23:&quot;%THEME%/images/ftc1.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/footer.html" slot="8" type="ad_pic" order="20" title="" domid="1422263242533" border="__none__" classname="" tpl="default.html" coreid="ftpoic2">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:23:&quot;%THEME%/images/ftc2.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/footer.html" slot="9" type="ad_pic" order="21" title="" domid="1422263251389" border="__none__" classname="" tpl="default.html" coreid="ftpoic3">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:23:&quot;%THEME%/images/ftc3.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header.html" slot="3" type="cart" order="3" title="" domid="1422262568074" border="__none__" classname="" tpl="default.html" coreid="carttop1">
+            <![CDATA[a:1:{s:14:&quot;cart_show_type&quot;;s:1:&quot;1&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header.html" slot="0" type="custom_html" order="0" title="" domid="1422497899629" border="__none__" classname="" tpl="default.html" coreid="fudong1s">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:201:&quot;&lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;客服一&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;客服二&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;客服三&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header.html" slot="6" type="ad_pic" order="6" title="" domid="1422262837617" border="__none__" classname="" tpl="default.html" coreid="hotline1">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:26:&quot;%THEME%/images/dianhua.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:33:&quot;./article-help_babyhelp-l-13.html&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header.html" slot="4" type="logo" order="4" title="" domid="1432793607544" border="__none__" classname="" tpl="default.html" coreid="logo1">
+            <![CDATA[a:1:{s:7:&quot;logotxt&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header.html" slot="7" type="goodscat_ex_vertical" order="7" title="" domid="1422262961702" border="__none__" classname="" tpl="default.html" coreid="navgen1">
+            <![CDATA[a:16:{s:12:&quot;show_cat_lv2&quot;;s:1:&quot;1&quot;;s:12:&quot;show_cat_lv3&quot;;s:1:&quot;1&quot;;s:13:&quot;show_cat_sale&quot;;s:1:&quot;1&quot;;s:14:&quot;show_cat_brand&quot;;s:1:&quot;1&quot;;s:17:&quot;redundancy_catlv2&quot;;s:1:&quot;1&quot;;s:8:&quot;box_left&quot;;s:1:&quot;0&quot;;s:8:&quot;box_flex&quot;;s:1:&quot;1&quot;;s:16:&quot;box_border_width&quot;;s:1:&quot;1&quot;;s:15:&quot;container_width&quot;;s:3:&quot;200&quot;;s:13:&quot;cat_lv2_width&quot;;s:2:&quot;30&quot;;s:9:&quot;box_width&quot;;s:3:&quot;700&quot;;s:14:&quot;box_link_width&quot;;s:2:&quot;35&quot;;s:19:&quot;brand_logo_maxwidth&quot;;s:2:&quot;75&quot;;s:12:&quot;target_blank&quot;;s:1:&quot;0&quot;;s:11:&quot;sales_title&quot;;s:12:&quot;相关促销&quot;;s:11:&quot;brand_title&quot;;s:12:&quot;相关品牌&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header.html" slot="8" type="nav" order="8" title="" domid="1422262972541" border="__none__" classname="" tpl="default.html" coreid="navs1">
+            <![CDATA[a:0:{}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header.html" slot="0" type="topbar_member" order="1" title="" domid="1422262547137" border="__none__" classname="" tpl="default.html" coreid="topbarmem1">
+            <![CDATA[a:1:{s:7:&quot;welcome&quot;;s:9:&quot;你好！&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header.html" slot="3" type="other_menut" order="2" title="" domid="1432793197044" border="__none__" classname="" tpl="default.html" coreid="toplist1">
+            <![CDATA[a:2:{s:14:&quot;top_link_title&quot;;a:4:{i:0;s:12:&quot;个人中心&quot;;i:1;s:12:&quot;我的订单&quot;;i:2;s:12:&quot;帮助中心&quot;;i:3;s:12:&quot;关于我们&quot;;}s:12:&quot;top_link_url&quot;;a:4:{i:0;s:13:&quot;./member.html&quot;;i:1;s:20:&quot;./member-orders.html&quot;;i:2;s:23:&quot;./article-help-i-1.html&quot;;i:3;s:33:&quot;./article-cominfo_about-i-17.html&quot;;}}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header.html" slot="5" type="search" order="5" title="" domid="1422262919259" border="__none__" classname="" tpl="default.html" coreid="topsearch1">
+            <![CDATA[a:3:{s:6:&quot;hotkey&quot;;s:12:&quot;热门搜索&quot;;s:14:&quot;top_link_title&quot;;a:6:{i:0;s:12:&quot;粮油食材&quot;;i:1;s:12:&quot;食用饮料&quot;;i:2;s:12:&quot;个人护理&quot;;i:3;s:12:&quot;居家文体&quot;;i:4;s:12:&quot;母婴玩具&quot;;i:5;s:12:&quot;电器数码&quot;;}s:12:&quot;top_link_url&quot;;a:6:{i:0;s:0:&quot;&quot;;i:1;s:0:&quot;&quot;;i:2;s:0:&quot;&quot;;i:3;s:0:&quot;&quot;;i:4;s:0:&quot;&quot;;i:5;s:0:&quot;&quot;;}}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header2.html" slot="3" type="cart" order="3" title="" domid="1422264115866" border="__none__" classname="" tpl="default.html" coreid="carttop1">
+            <![CDATA[a:1:{s:14:&quot;cart_show_type&quot;;s:1:&quot;1&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header2.html" slot="0" type="custom_html" order="0" title="" domid="1422497938673" border="__none__" classname="" tpl="default.html" coreid="fudong2s">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:201:&quot;&lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;客服一&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;客服二&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;客服三&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header2.html" slot="6" type="ad_pic" order="6" title="" domid="1422264035990" border="__none__" classname="" tpl="default.html" coreid="hotline1">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:26:&quot;%THEME%/images/dianhua.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header2.html" slot="4" type="logo" order="4" title="" domid="1432793635884" border="__none__" classname="" tpl="default.html" coreid="logo1">
+            <![CDATA[a:1:{s:7:&quot;logotxt&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header2.html" slot="7" type="goodscat_ex_vertical" order="7" title="" domid="1422263960976" border="__none__" classname="" tpl="default.html" coreid="navgen1">
+            <![CDATA[a:16:{s:12:&quot;show_cat_lv2&quot;;s:1:&quot;1&quot;;s:12:&quot;show_cat_lv3&quot;;s:1:&quot;1&quot;;s:13:&quot;show_cat_sale&quot;;s:1:&quot;1&quot;;s:14:&quot;show_cat_brand&quot;;s:1:&quot;1&quot;;s:17:&quot;redundancy_catlv2&quot;;s:1:&quot;1&quot;;s:8:&quot;box_left&quot;;s:1:&quot;0&quot;;s:8:&quot;box_flex&quot;;s:1:&quot;1&quot;;s:16:&quot;box_border_width&quot;;s:1:&quot;1&quot;;s:15:&quot;container_width&quot;;s:3:&quot;200&quot;;s:13:&quot;cat_lv2_width&quot;;s:2:&quot;30&quot;;s:9:&quot;box_width&quot;;s:3:&quot;700&quot;;s:14:&quot;box_link_width&quot;;s:2:&quot;35&quot;;s:19:&quot;brand_logo_maxwidth&quot;;s:2:&quot;75&quot;;s:12:&quot;target_blank&quot;;s:1:&quot;0&quot;;s:11:&quot;sales_title&quot;;s:12:&quot;相关促销&quot;;s:11:&quot;brand_title&quot;;s:12:&quot;相关品牌&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header2.html" slot="8" type="nav" order="8" title="" domid="1422263979457" border="__none__" classname="" tpl="default.html" coreid="navs1">
+            <![CDATA[a:0:{}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header2.html" slot="0" type="topbar_member" order="1" title="" domid="1422264065021" border="__none__" classname="" tpl="default.html" coreid="topbarmem1">
+            <![CDATA[a:1:{s:7:&quot;welcome&quot;;s:39:&quot;您好游客，欢迎您来到挖鳅网&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header2.html" slot="2" type="custom_html" order="2" title="" domid="1422264145549" border="__none__" classname="" tpl="default.html" coreid="toplist1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:150:&quot;&lt;a href=&quot;#&quot;&gt;我的订单&lt;/a&gt;|
+  &lt;a href=&quot;#&quot;&gt;个人中心&lt;/a&gt;|
+  &lt;a href=&quot;#&quot;&gt;帮助&lt;/a&gt;|
+  &lt;a href=&quot;#&quot;&gt;收藏本站&lt;/a&gt;|
+  &lt;a href=&quot;#&quot;&gt;关注我们&lt;/a&gt;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/header2.html" slot="5" type="search" order="5" title="" domid="1422264027165" border="__none__" classname="" tpl="default.html" coreid="topsearch1">
+            <![CDATA[a:3:{s:6:&quot;hotkey&quot;;s:12:&quot;热门搜索&quot;;s:14:&quot;top_link_title&quot;;a:6:{i:0;s:12:&quot;粮油食材&quot;;i:1;s:12:&quot;食用饮料&quot;;i:2;s:12:&quot;个人护理&quot;;i:3;s:12:&quot;居家文体&quot;;i:4;s:12:&quot;母婴玩具&quot;;i:5;s:12:&quot;电器数码&quot;;}s:12:&quot;top_link_url&quot;;a:6:{i:0;s:0:&quot;&quot;;i:1;s:0:&quot;&quot;;i:2;s:0:&quot;&quot;;i:3;s:0:&quot;&quot;;i:4;s:0:&quot;&quot;;i:5;s:0:&quot;&quot;;}}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/passport_header.html" slot="2" type="logo" order="2" title="" domid="1374079997055" border="__none__" classname="" tpl="default.html" coreid="hl">
+            <![CDATA[a:1:{s:7:&quot;logotxt&quot;;s:30:&quot;ECStore 2.0 官方演示模板&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/passport_header.html" slot="0" type="topbar_member" order="0" title="" domid="1374079940275" border="__none__" classname="" tpl="default.html" coreid="tbl">
+            <![CDATA[a:1:{s:7:&quot;welcome&quot;;s:49:&quot;尊敬的顾客您好，欢迎来到Demo商城！&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="block/passport_header.html" slot="1" type="topbar_subnav" order="1" title="" domid="1374079950046" border="__none__" classname="" tpl="default.html" coreid="tbr">
+            <![CDATA[a:0:{}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="default.html" slot="0" type="bread_crumbs" order="8" title="" domid="1374079404439" border="__none__" classname="" tpl="default.html" coreid="bread_crumbs">
+            <![CDATA[a:0:{}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="gallery-(1).html" slot="0" type="bread_crumbs" order="9" title="" domid="1422263972298" border="__none__" classname="" tpl="default.html" coreid="bread_crumbs">
+            <![CDATA[a:0:{}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="gallery-(1).html" slot="2" type="sales_charts" order="10" title="" domid="1422265068682" border="__none__" classname="" tpl="default.html" coreid="galeft_main1">
+            <![CDATA[a:13:{s:10:&quot;block_name&quot;;s:15:&quot;商品排行榜&quot;;s:5:&quot;limit&quot;;s:1:&quot;3&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="8" type="ad_slide_normal" order="9" title="" domid="1422248935810" border="__none__" classname="" tpl="default.html" coreid="banner1">
+            <![CDATA[a:5:{s:5:&quot;width&quot;;s:3:&quot;717&quot;;s:6:&quot;height&quot;;s:3:&quot;334&quot;;s:12:&quot;switcheffect&quot;;s:7:&quot;scrollx&quot;;s:8:&quot;autoplay&quot;;s:4:&quot;true&quot;;s:3:&quot;pic&quot;;a:2:{s:13:&quot;1422248927111&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1422248927111&quot;;s:4:&quot;link&quot;;s:23:&quot;%THEME%/images/kv01.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}s:13:&quot;1422248928457&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1422248928457&quot;;s:4:&quot;link&quot;;s:23:&quot;%THEME%/images/kv01.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}}}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="88" type="custom_html" order="89" title="" domid="1422257498027" border="__none__" classname="" tpl="default.html" coreid="dqffot_t1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;精选特惠&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="89" type="custom_html" order="90" title="" domid="1422257507857" border="__none__" classname="" tpl="default.html" coreid="dqffot_t2">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;新鲜水果&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="90" type="custom_html" order="91" title="" domid="1422257516903" border="__none__" classname="" tpl="default.html" coreid="dqffot_t3">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;粮油调味&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="91" type="custom_html" order="92" title="" domid="1422257528432" border="__none__" classname="" tpl="default.html" coreid="dqffot_t4">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;干货特产&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="86" type="custom_html" order="87" title="" domid="1422257473198" border="__none__" classname="" tpl="default.html" coreid="dqlist2">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:442:&quot;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;大米&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;食用油&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;新鲜水果&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;冻肉&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;海鲜&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;方便面&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;厨房调味&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;地方特产&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;南北干货&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;火腿肠&lt;/a&gt;&lt;/li&gt;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="97" type="ad_slide_normal" order="98" title="" domid="1422257453981" border="__none__" classname="" tpl="default.html" coreid="dqnrimain1">
+            <![CDATA[a:5:{s:5:&quot;width&quot;;s:3:&quot;236&quot;;s:6:&quot;height&quot;;s:3:&quot;425&quot;;s:12:&quot;switcheffect&quot;;s:7:&quot;scrollx&quot;;s:8:&quot;autoplay&quot;;s:5:&quot;false&quot;;s:3:&quot;pic&quot;;a:2:{s:13:&quot;1422257447970&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1422257447970&quot;;s:4:&quot;link&quot;;s:26:&quot;%THEME%/images/dianqit.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}s:13:&quot;1422257448769&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1422257448769&quot;;s:4:&quot;link&quot;;s:26:&quot;%THEME%/images/dianqit.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}}}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="96" type="custom_html" order="97" title="" domid="1422257484018" border="__none__" classname="" tpl="default.html" coreid="dqrtlis1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;今日推荐&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="92" type="index_tab_goods" order="93" title="" domid="1422257570349" border="__none__" classname="" tpl="default.html" coreid="dqsmcs1">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;select&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:15:&quot;9,8,7,6,5,4,3,1&quot;;s:20:&quot;goods_select_linkobj&quot;;s:241:&quot;[{&quot;id&quot;:&quot;9&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;8&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;7&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;6&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;5&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;4&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;1&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;}]&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="93" type="index_tab_goods" order="94" title="" domid="1422257577954" border="__none__" classname="" tpl="default.html" coreid="dqsmcs2">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="94" type="index_tab_goods" order="95" title="" domid="1422257550234" border="__none__" classname="" tpl="default.html" coreid="dqsmcs3">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;select&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:15:&quot;9,8,7,6,5,4,3,1&quot;;s:20:&quot;goods_select_linkobj&quot;;s:241:&quot;[{&quot;id&quot;:&quot;9&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;8&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;7&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;6&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;5&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;4&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;1&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;}]&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="95" type="index_tab_goods" order="96" title="" domid="1422257587110" border="__none__" classname="" tpl="default.html" coreid="dqsmcs4">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="85" type="ad_pic" order="86" title="" domid="1422257437988" border="__none__" classname="" tpl="default.html" coreid="dqtitle2">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:27:&quot;%THEME%/images/dianqitl.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="87" type="ad_pic" order="88" title="" domid="1422257459666" border="__none__" classname="" tpl="default.html" coreid="dqyps2">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:26:&quot;%THEME%/images/dianqip.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="2" type="index_news" order="11" title="" domid="1432792854806" border="__none__" classname="" tpl="default.html" coreid="gonggao1">
+            <![CDATA[a:9:{s:7:&quot;node_id&quot;;s:2:&quot;11&quot;;s:14:&quot;stripparenturl&quot;;s:1:&quot;0&quot;;s:2:&quot;lv&quot;;s:1:&quot;2&quot;;s:10:&quot;showallart&quot;;s:1:&quot;1&quot;;s:5:&quot;limit&quot;;s:1:&quot;5&quot;;s:10:&quot;order_type&quot;;s:7:&quot;pubtime&quot;;s:5:&quot;order&quot;;s:3:&quot;asc&quot;;s:10:&quot;showuptime&quot;;s:1:&quot;0&quot;;s:8:&quot;shownode&quot;;s:1:&quot;0&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="49" type="custom_html" order="50" title="" domid="1422256421797" border="__none__" classname="" tpl="default.html" coreid="grffot_t1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;精选特惠&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="50" type="custom_html" order="51" title="" domid="1422256431613" border="__none__" classname="" tpl="default.html" coreid="grffot_t2">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;新鲜水果&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="51" type="custom_html" order="52" title="" domid="1422256443316" border="__none__" classname="" tpl="default.html" coreid="grffot_t3">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;粮油调味&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="52" type="custom_html" order="53" title="" domid="1422256454398" border="__none__" classname="" tpl="default.html" coreid="grffot_t4">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;干货特产&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="47" type="custom_html" order="48" title="" domid="1422256183667" border="__none__" classname="" tpl="default.html" coreid="grlist2">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:442:&quot;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;大米&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;食用油&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;新鲜水果&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;冻肉&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;海鲜&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;方便面&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;厨房调味&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;地方特产&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;南北干货&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;火腿肠&lt;/a&gt;&lt;/li&gt;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="58" type="ad_slide_normal" order="59" title="" domid="1422256224742" border="__none__" classname="" tpl="default.html" coreid="grnrimain1">
+            <![CDATA[a:5:{s:5:&quot;width&quot;;s:3:&quot;236&quot;;s:6:&quot;height&quot;;s:3:&quot;425&quot;;s:12:&quot;switcheffect&quot;;s:7:&quot;scrollx&quot;;s:8:&quot;autoplay&quot;;s:5:&quot;false&quot;;s:3:&quot;pic&quot;;a:2:{s:13:&quot;1422256223197&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1422256223197&quot;;s:4:&quot;link&quot;;s:25:&quot;%THEME%/images/gerent.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}s:13:&quot;1422256223717&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1422256223717&quot;;s:4:&quot;link&quot;;s:25:&quot;%THEME%/images/gerent.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}}}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="57" type="custom_html" order="58" title="" domid="1422256210555" border="__none__" classname="" tpl="default.html" coreid="grrtlis1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;今日推荐&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="53" type="index_tab_goods" order="54" title="" domid="1422256597781" border="__none__" classname="" tpl="default.html" coreid="grsmcs1">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="54" type="index_tab_goods" order="55" title="" domid="1422256564828" border="__none__" classname="" tpl="default.html" coreid="grsmcs2">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;select&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:15:&quot;8,7,6,5,4,3,2,1&quot;;s:20:&quot;goods_select_linkobj&quot;;s:241:&quot;[{&quot;id&quot;:&quot;8&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;7&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;6&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;5&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;4&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;1&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;}]&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="55" type="index_tab_goods" order="56" title="" domid="1422256588489" border="__none__" classname="" tpl="default.html" coreid="grsmcs3">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;select&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:19:&quot;8,7,6,5,13,12,11,10&quot;;s:20:&quot;goods_select_linkobj&quot;;s:245:&quot;[{&quot;id&quot;:&quot;8&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;7&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;6&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;5&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;13&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;12&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;11&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;10&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;}]&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="56" type="index_tab_goods" order="57" title="" domid="1422256607003" border="__none__" classname="" tpl="default.html" coreid="grsmcs4">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="46" type="ad_pic" order="47" title="" domid="1422256168525" border="__none__" classname="" tpl="default.html" coreid="grtitle2">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:26:&quot;%THEME%/images/gerentl.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="48" type="ad_pic" order="49" title="" domid="1422256198287" border="__none__" classname="" tpl="default.html" coreid="gryps2">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:25:&quot;%THEME%/images/gerenp.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="12" type="custom_html" order="13" title="" domid="1422251610328" border="__none__" classname="" tpl="default.html" coreid="hlife1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:9:&quot;惠生活&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="32" type="ad_slide_normal" order="33" title="" domid="1422255269994" border="__none__" classname="" tpl="default.html" coreid="jinrimain1">
+            <![CDATA[a:5:{s:5:&quot;width&quot;;s:3:&quot;236&quot;;s:6:&quot;height&quot;;s:3:&quot;425&quot;;s:12:&quot;switcheffect&quot;;s:7:&quot;scrollx&quot;;s:8:&quot;autoplay&quot;;s:5:&quot;false&quot;;s:3:&quot;pic&quot;;a:2:{s:13:&quot;1422255267221&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1422255267221&quot;;s:4:&quot;link&quot;;s:28:&quot;%THEME%/images/liangyout.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}s:13:&quot;1422255268060&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1422255268060&quot;;s:4:&quot;link&quot;;s:28:&quot;%THEME%/images/liangyout.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}}}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="62" type="custom_html" order="63" title="" domid="1422256833661" border="__none__" classname="" tpl="default.html" coreid="jjffot_t1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;精选特惠&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="63" type="custom_html" order="64" title="" domid="1422256843021" border="__none__" classname="" tpl="default.html" coreid="jjffot_t2">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;新鲜水果&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="64" type="custom_html" order="65" title="" domid="1422256859811" border="__none__" classname="" tpl="default.html" coreid="jjffot_t3">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;粮油调味&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="65" type="custom_html" order="66" title="" domid="1422256869686" border="__none__" classname="" tpl="default.html" coreid="jjffot_t4">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;干货特产&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="60" type="custom_html" order="61" title="" domid="1422256810056" border="__none__" classname="" tpl="default.html" coreid="jjlist2">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:442:&quot;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;大米&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;食用油&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;新鲜水果&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;冻肉&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;海鲜&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;方便面&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;厨房调味&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;地方特产&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;南北干货&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;火腿肠&lt;/a&gt;&lt;/li&gt;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="71" type="ad_slide_normal" order="72" title="" domid="1422256760071" border="__none__" classname="" tpl="default.html" coreid="jjnrimain1">
+            <![CDATA[a:5:{s:5:&quot;width&quot;;s:3:&quot;236&quot;;s:6:&quot;height&quot;;s:3:&quot;425&quot;;s:12:&quot;switcheffect&quot;;s:7:&quot;scrollx&quot;;s:8:&quot;autoplay&quot;;s:5:&quot;false&quot;;s:3:&quot;pic&quot;;a:2:{s:13:&quot;1422256754500&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1422256754500&quot;;s:4:&quot;link&quot;;s:25:&quot;%THEME%/images/jujiat.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}s:13:&quot;1422256755076&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1422256755076&quot;;s:4:&quot;link&quot;;s:25:&quot;%THEME%/images/jujiat.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}}}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="70" type="custom_html" order="71" title="" domid="1422256821464" border="__none__" classname="" tpl="default.html" coreid="jjrtlis1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;今日推荐&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="66" type="index_tab_goods" order="67" title="" domid="1422256919430" border="__none__" classname="" tpl="default.html" coreid="jjsmcs1">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;select&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:15:&quot;9,8,7,6,5,4,3,1&quot;;s:20:&quot;goods_select_linkobj&quot;;s:241:&quot;[{&quot;id&quot;:&quot;9&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;8&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;7&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;6&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;5&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;4&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;1&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;}]&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="67" type="index_tab_goods" order="68" title="" domid="1422256929044" border="__none__" classname="" tpl="default.html" coreid="jjsmcs2">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="68" type="index_tab_goods" order="69" title="" domid="1422256898004" border="__none__" classname="" tpl="default.html" coreid="jjsmcs3">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;select&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:15:&quot;8,7,6,5,4,3,2,1&quot;;s:20:&quot;goods_select_linkobj&quot;;s:241:&quot;[{&quot;id&quot;:&quot;8&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;7&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;6&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;5&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;4&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;1&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;}]&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="69" type="index_tab_goods" order="70" title="" domid="1422256941798" border="__none__" classname="" tpl="default.html" coreid="jjsmcs4">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="59" type="ad_pic" order="60" title="" domid="1422256736647" border="__none__" classname="" tpl="default.html" coreid="jjtitle2">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:26:&quot;%THEME%/images/jujiatl.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="61" type="ad_pic" order="62" title="" domid="1422256766661" border="__none__" classname="" tpl="default.html" coreid="jjyps2">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:25:&quot;%THEME%/images/jujiap.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="13" type="ad_pic" order="14" title="" domid="1422251711799" border="__none__" classname="" tpl="default.html" coreid="lifep11">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:23:&quot;%THEME%/images/hui1.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="14" type="ad_pic" order="15" title="" domid="1422251722376" border="__none__" classname="" tpl="default.html" coreid="lifep22">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:23:&quot;%THEME%/images/hui2.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="15" type="ad_pic" order="16" title="" domid="1422251731629" border="__none__" classname="" tpl="default.html" coreid="lifep33">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:23:&quot;%THEME%/images/hui3.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="16" type="ad_pic" order="17" title="" domid="1422251737476" border="__none__" classname="" tpl="default.html" coreid="lifep44">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:23:&quot;%THEME%/images/hui4.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="17" type="ad_pic" order="18" title="" domid="1422251743771" border="__none__" classname="" tpl="default.html" coreid="lifep55">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:23:&quot;%THEME%/images/hui5.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="18" type="ad_pic" order="19" title="" domid="1422251751129" border="__none__" classname="" tpl="default.html" coreid="lifep66">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:23:&quot;%THEME%/images/hui6.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="19" type="ad_pic" order="20" title="" domid="1422251759649" border="__none__" classname="" tpl="default.html" coreid="lifep77">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:23:&quot;%THEME%/images/hui7.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="23" type="custom_html" order="24" title="" domid="1422253166277" border="__none__" classname="" tpl="default.html" coreid="lyffot_t1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;精选特惠&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="24" type="custom_html" order="25" title="" domid="1422253188872" border="__none__" classname="" tpl="default.html" coreid="lyffot_t2">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;新鲜水果&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="25" type="custom_html" order="26" title="" domid="1422253199915" border="__none__" classname="" tpl="default.html" coreid="lyffot_t3">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;粮油调味&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="26" type="custom_html" order="27" title="" domid="1422253218546" border="__none__" classname="" tpl="default.html" coreid="lyffot_t4">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;干货特产&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="21" type="custom_html" order="22" title="" domid="1422251910627" border="__none__" classname="" tpl="default.html" coreid="lylist1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:442:&quot;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;大米&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;食用油&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;新鲜水果&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;冻肉&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;海鲜&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;方便面&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;厨房调味&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;地方特产&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;南北干货&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;火腿肠&lt;/a&gt;&lt;/li&gt;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="31" type="custom_html" order="32" title="" domid="1422255236613" border="__none__" classname="" tpl="default.html" coreid="lyrtlis1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;今日推荐&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="27" type="index_tab_goods" order="28" title="" domid="1422253238355" border="__none__" classname="" tpl="default.html" coreid="lysmcs1">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:1:&quot;1&quot;;s:11:&quot;show_market&quot;;s:5:&quot;false&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="28" type="index_tab_goods" order="29" title="" domid="1422254031037" border="__none__" classname="" tpl="default.html" coreid="lysmcs2">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="29" type="index_tab_goods" order="30" title="" domid="1422254055784" border="__none__" classname="" tpl="default.html" coreid="lysmcs3">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;select&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:20:&quot;16,15,12,11,10,8,7,6&quot;;s:20:&quot;goods_select_linkobj&quot;;s:246:&quot;[{&quot;id&quot;:&quot;16&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;15&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;12&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;11&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;10&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;8&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;7&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;6&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;}]&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="30" type="index_tab_goods" order="31" title="" domid="1422254064075" border="__none__" classname="" tpl="default.html" coreid="lysmcs4">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="20" type="ad_pic" order="21" title="" domid="1422251956641" border="__none__" classname="" tpl="default.html" coreid="lytitle1">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:29:&quot;%THEME%/images/liangyoutl.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="75" type="custom_html" order="76" title="" domid="1422257208035" border="__none__" classname="" tpl="default.html" coreid="myffot_t1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;精选特惠&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="76" type="custom_html" order="77" title="" domid="1422257216349" border="__none__" classname="" tpl="default.html" coreid="myffot_t2">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;新鲜水果&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="77" type="custom_html" order="78" title="" domid="1422257227947" border="__none__" classname="" tpl="default.html" coreid="myffot_t3">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;粮油调味&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="78" type="custom_html" order="79" title="" domid="1422257238186" border="__none__" classname="" tpl="default.html" coreid="myffot_t4">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;干货特产&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="73" type="custom_html" order="74" title="" domid="1422257177350" border="__none__" classname="" tpl="default.html" coreid="mylist2">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:442:&quot;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;大米&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;食用油&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;新鲜水果&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;冻肉&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;海鲜&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;方便面&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;厨房调味&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;地方特产&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;南北干货&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;火腿肠&lt;/a&gt;&lt;/li&gt;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="84" type="ad_slide_normal" order="85" title="" domid="1422257101436" border="__none__" classname="" tpl="default.html" coreid="mynrimain1">
+            <![CDATA[a:5:{s:5:&quot;width&quot;;s:3:&quot;236&quot;;s:6:&quot;height&quot;;s:3:&quot;425&quot;;s:12:&quot;switcheffect&quot;;s:7:&quot;scrollx&quot;;s:8:&quot;autoplay&quot;;s:5:&quot;false&quot;;s:3:&quot;pic&quot;;a:2:{s:13:&quot;1422257092064&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1422257092064&quot;;s:4:&quot;link&quot;;s:25:&quot;%THEME%/images/muyint.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}s:13:&quot;1422257092615&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1422257092615&quot;;s:4:&quot;link&quot;;s:25:&quot;%THEME%/images/muyint.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}}}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="83" type="custom_html" order="84" title="" domid="1422257193936" border="__none__" classname="" tpl="default.html" coreid="myrtlis1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;今日推荐&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="79" type="index_tab_goods" order="80" title="" domid="1422257305638" border="__none__" classname="" tpl="default.html" coreid="mysmcs1">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="80" type="index_tab_goods" order="81" title="" domid="1422257275839" border="__none__" classname="" tpl="default.html" coreid="mysmcs2">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;select&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:15:&quot;9,8,7,6,5,4,3,1&quot;;s:20:&quot;goods_select_linkobj&quot;;s:241:&quot;[{&quot;id&quot;:&quot;9&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;8&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;7&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;6&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;5&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;4&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;1&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;}]&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="81" type="index_tab_goods" order="82" title="" domid="1422257314163" border="__none__" classname="" tpl="default.html" coreid="mysmcs3">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="82" type="index_tab_goods" order="83" title="" domid="1422257296579" border="__none__" classname="" tpl="default.html" coreid="mysmcs4">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;select&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:15:&quot;7,6,9,8,4,3,2,1&quot;;s:20:&quot;goods_select_linkobj&quot;;s:241:&quot;[{&quot;id&quot;:&quot;7&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;6&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;9&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;8&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;4&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;1&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;}]&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="72" type="ad_pic" order="73" title="" domid="1422257075826" border="__none__" classname="" tpl="default.html" coreid="mytitle2">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:26:&quot;%THEME%/images/muyintl.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="74" type="ad_pic" order="75" title="" domid="1422257122105" border="__none__" classname="" tpl="default.html" coreid="myyps2">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:25:&quot;%THEME%/images/muyinp.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="1" type="custom_html" order="10" title="" domid="1432792657350" border="__none__" classname="" tpl="default.html" coreid="newtab_title">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;商城公告&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="9" type="ad_pic" order="12" title="" domid="1422249028394" border="__none__" classname="" tpl="default.html" coreid="qianggou1">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:28:&quot;%THEME%/images/qiangxian.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="45" type="ad_slide_normal" order="46" title="" domid="1422255866834" border="__none__" classname="" tpl="default.html" coreid="sinrimain1">
+            <![CDATA[a:5:{s:5:&quot;width&quot;;s:3:&quot;236&quot;;s:6:&quot;height&quot;;s:3:&quot;425&quot;;s:12:&quot;switcheffect&quot;;s:7:&quot;scrollx&quot;;s:8:&quot;autoplay&quot;;s:5:&quot;false&quot;;s:3:&quot;pic&quot;;a:2:{s:13:&quot;1422255834406&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1422255834406&quot;;s:4:&quot;link&quot;;s:27:&quot;%THEME%/images/shiyongt.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}s:13:&quot;1422255834971&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1422255834971&quot;;s:4:&quot;link&quot;;s:27:&quot;%THEME%/images/shiyongt.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}}}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="35" type="ad_pic" order="36" title="" domid="1422255783203" border="__none__" classname="" tpl="default.html" coreid="slyps2">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:27:&quot;%THEME%/images/shiyongp.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="36" type="custom_html" order="37" title="" domid="1422255892116" border="__none__" classname="" tpl="default.html" coreid="syffot_t1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;精选特惠&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="37" type="custom_html" order="38" title="" domid="1422255902911" border="__none__" classname="" tpl="default.html" coreid="syffot_t2">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;新鲜水果&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="38" type="custom_html" order="39" title="" domid="1422255913986" border="__none__" classname="" tpl="default.html" coreid="syffot_t3">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;粮油调味&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="39" type="custom_html" order="40" title="" domid="1422255928633" border="__none__" classname="" tpl="default.html" coreid="syffot_t4">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;干货特产&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="34" type="custom_html" order="35" title="" domid="1422255754996" border="__none__" classname="" tpl="default.html" coreid="sylist2">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:442:&quot;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;大米&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;食用油&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;新鲜水果&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;冻肉&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;海鲜&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;方便面&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;厨房调味&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;地方特产&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;南北干货&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;火腿肠&lt;/a&gt;&lt;/li&gt;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="44" type="custom_html" order="45" title="" domid="1422255797395" border="__none__" classname="" tpl="default.html" coreid="syrtlis1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;今日推荐&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="40" type="index_tab_goods" order="41" title="" domid="1422255955043" border="__none__" classname="" tpl="default.html" coreid="sysmcs1">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;select&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:15:&quot;4,3,2,1,8,7,6,5&quot;;s:20:&quot;goods_select_linkobj&quot;;s:241:&quot;[{&quot;id&quot;:&quot;4&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;1&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;8&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;7&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;6&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;5&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;}]&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="41" type="index_tab_goods" order="42" title="" domid="1422255987345" border="__none__" classname="" tpl="default.html" coreid="sysmcs2">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="42" type="index_tab_goods" order="43" title="" domid="1422255978202" border="__none__" classname="" tpl="default.html" coreid="sysmcs3">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;select&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:19:&quot;4,3,2,1,13,12,11,10&quot;;s:20:&quot;goods_select_linkobj&quot;;s:245:&quot;[{&quot;id&quot;:&quot;4&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;1&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;13&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;12&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;11&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;},{&quot;id&quot;:&quot;10&quot;,&quot;pic&quot;:&quot;&quot;,&quot;nice&quot;:&quot;&quot;}]&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="43" type="index_tab_goods" order="44" title="" domid="1422255995333" border="__none__" classname="" tpl="default.html" coreid="sysmcs4">
+            <![CDATA[a:15:{s:5:&quot;limit&quot;;s:1:&quot;8&quot;;s:7:&quot;texttag&quot;;s:9:&quot;抢购价&quot;;s:11:&quot;show_market&quot;;s:4:&quot;true&quot;;s:9:&quot;show_star&quot;;s:5:&quot;false&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="33" type="ad_pic" order="34" title="" domid="1422255696290" border="__none__" classname="" tpl="default.html" coreid="sytitle2">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:28:&quot;%THEME%/images/shiyongtl.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="index.html" slot="22" type="ad_pic" order="23" title="" domid="1422252073288" border="__none__" classname="" tpl="default.html" coreid="ylyps1">
+            <![CDATA[a:5:{s:12:&quot;ad_pic_width&quot;;s:0:&quot;&quot;;s:13:&quot;ad_pic_height&quot;;s:0:&quot;&quot;;s:6:&quot;ad_pic&quot;;s:28:&quot;%THEME%/images/liangyoup.jpg&quot;;s:10:&quot;ad_pic_txt&quot;;s:0:&quot;&quot;;s:11:&quot;ad_pic_link&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="passport-(1).html" slot="0" type="bread_crumbs" order="10" title="" domid="1422336274891" border="__none__" classname="" tpl="default.html" coreid="bread_crumbs">
+            <![CDATA[a:0:{}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="passport-(1).html" slot="1" type="custom_html" order="11" title="" domid="1422498176567" border="__none__" classname="" tpl="default.html" coreid="yonghus1">
+            <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:19:&quot;用户注册/登录&quot;;}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="product-(1).html" slot="0" type="bread_crumbs" order="9" title="" domid="1422324953885" border="__none__" classname="" tpl="default.html" coreid="bread_crumbs">
+            <![CDATA[a:0:{}]]>
+		</widget>
+				<widget app="" theme="waqiu" file="product-(1).html" slot="1" type="sales_charts" order="10" title="" domid="1422324940415" border="__none__" classname="" tpl="default.html" coreid="prosleft1">
+            <![CDATA[a:13:{s:10:&quot;block_name&quot;;s:12:&quot;产品推荐&quot;;s:5:&quot;limit&quot;;s:1:&quot;4&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:77:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+		</widget>
+			</widgets>
+
+	<proinstances>
+			</proinstances>
+
+</theme>

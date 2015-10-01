@@ -1,0 +1,9 @@
+/* member page start */
+.member-menu{font-size: 12px;background: white;}
+.page-aside {width: 120px;}
+.signupin-content .form-item{line-height: 2.1em;}
+.security-list li{line-height: 45px;}
+.security-list em{line-height: 45px;}
+.security-list .security-actions{padding-top:10px;line-height: 25px;text-align: center;}
+.member-messagebox .messagebox-action{padding-top:8px;}
+/* member page end */

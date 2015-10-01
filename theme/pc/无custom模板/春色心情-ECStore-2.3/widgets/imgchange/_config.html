@@ -1,0 +1,115 @@
+<div class="tableform">
+    <div class="widgetconfig">
+        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tbody>
+                <tr>
+                    <th><{t app='b2c'}>原图广告尺寸：<{/t}></th>
+                    <td><{t app='b2c'}>宽<{/t}>
+                        <input type="text" name="org_pic_width" value="<{$setting.org_pic_width}>" style="width:40px">px <{t app='b2c'}>高<{/t}><input type="text" name="org_pic_height" style="width:40px" value="<{$setting.org_pic_height}>">px
+                    </td>
+                </tr>
+                <tr>
+                    <th><{t app='b2c'}>图片：<{/t}></th>
+                    <td>
+                        <input type=hidden name="org_pic" value="<{$setting.org_pic}>"><input name='org_pic' class="imgsrc" id="org_pic" value="<{$setting.org_pic}>"><input type=button value="<{t app='b2c'}>上传图片<{/t}>" class="uploadbtn" onclick="addPic()">
+                    </td>
+                </tr>
+                <tr>
+                    <th><{t app='b2c'}>图片描述：<{/t}></th>
+                    <td><input type="text" name="org_pic_txt" value="<{$setting.org_pic_txt}>"></td>
+                </tr>
+                <tr>
+                    <th><{t app='b2c'}>图片链接：<{/t}></th>
+                    <td><input type="text" name="org_pic_link" value="<{$setting.org_pic_link}>"></td>
+                </tr>
+                 <tr>
+                    <th><{t app='b2c'}>限时活动广告尺寸：<{/t}></th>
+                    <td><{t app='b2c'}>宽<{/t}>
+                        <input type="text" name="act_pic_width" value="<{$setting.act_pic_width}>" style="width:40px">px <{t app='b2c'}>高<{/t}><input type="text" name="act_pic_height" style="width:40px" value="<{$setting.act_pic_height}>">px
+                    </td>
+                </tr>
+                <tr>
+                    <th><{t app='b2c'}>图片：<{/t}></th>
+                    <td>
+                        <input type=hidden name="act_pic" value="<{$setting.act_pic}>">
+                        <input name='act_pic' class="imgsrc" id="act_pic" value="<{$setting.act_pic}>">
+                        <input type=button value="<{t app='b2c'}>上传图片<{/t}>" class="uploadbtn" onclick="addact_Pic()">
+                    </td>
+                </tr>
+                <tr>
+                    <th><{t app='b2c'}>图片描述：<{/t}></th>
+                    <td><input type="text" name="act_pic_txt" value="<{$setting.act_pic_txt}>"></td>
+                </tr>
+                <tr>
+                    <th><{t app='b2c'}>图片链接：<{/t}></th>
+                    <td><input type="text" name="act_pic_link" value="<{$setting.act_pic_link}>"></td>
+                </tr>
+                <tr>
+                    <th><{t}>起始时间：<{/t}></th>  
+                    <td><{input type="date"  name='act_pic_from_time' value=$setting.act_pic_from_time }>
+                        
+                        <select name="from_hour">
+                            <option  selected="selected" value="<{$setting.from_hour}>" >
+                                <{ $setting.from_hour}>
+                            </option>
+                            <{foreach from=$setting.select_time.hour key=key item=item}>
+                               <option value="<{$key}>" >
+                            	  <{$item}>
+                               </option>
+                            <{/foreach}>
+                        </select>
+                
+                        <select name="from_min">
+                            <option selected="selected" value="<{$setting.from_min}>">
+                                <{ $setting.from_min}>
+                            </option>
+                            <{foreach from=$setting.select_time.min key=key item=item}>
+                            <option value="<{$key}>"><{$item}></option>
+                            <{/foreach}>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><{t}>结束时间：<{/t}></th>  
+                    <td><{input type="date"  name='act_pic_to_time' value=$setting.act_pic_to_time }>
+                    <select name="to_hour">
+                            <option  value="<{$setting.to_hour}>" selected="selected">
+                                <{$setting.to_hour}>
+                            </option>
+                            <{foreach from=$setting.select_time.hour key=key item=item}>
+                            <option value="<{$key}>"><{$item}></option>
+                            <{/foreach}>
+                        </select>
+                       
+                        <select name="to_min">
+                            <option value="<{$setting.to_min}>"  selected="selected">
+                                <{$setting.to_min}>
+                            </option>
+                            <{foreach from=$setting.select_time.min key=key item=item}>
+                            <option value="<{$key}>" ><{$item}></option>
+                            <{/foreach}>
+                        </select>
+                     </td>   
+                </tr>
+        </tbody></table>
+    </div>
+</div>
+<script>
+  function addact_Pic(){
+        var url='index.php?app=desktop&act=alertpages&goto='+encodeURIComponent("index.php?app=image&ctl=admin_manage&act=image_broswer&type=big");
+        Ex_Loader('modedialog',function(){
+            return new imgDialog(url,{onCallback:function(image_id,image_src){
+                    $('act_pic').value=image_src;
+            }})	;
+        });
+    }
+    function addPic(){
+        var url='index.php?app=desktop&act=alertpages&goto='+encodeURIComponent("index.php?app=image&ctl=admin_manage&act=image_broswer&type=big");
+        Ex_Loader('modedialog',function(){
+            return new imgDialog(url,{onCallback:function(image_id,image_src){
+                    $('org_pic').value=image_src;
+            }})	;
+        });
+    }
+  
+</script>

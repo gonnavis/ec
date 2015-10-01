@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/*公共*/
+.btn{background: #97d84e;border:none;}
+.btn.red{background: #fe5740;}
+.section{border-bottom: 1px solid #ddd;}
+.dialog .close{top:2px;right: 2px;height: 18px;width: 18px;border:none;color: #fff;background: #333;font-size: 12px;line-height: 18px;text-align: center;}
+.dialog{border-radius: 5px;}
+input{-webkit-appearance:none;}
+/*详情页*/
+.full-screen header{background: #f7f7f7;border-bottom: 1px solid #a9a9a9;position: relative;}
+
+.full-screen header .a-back{position: absolute;padding-left:20px;display: block;top:7px;left: 0px;width: 60px;margin-left: 0;text-align: left;}
+.full-screen header .a-back .arr{width: 7px;height: 7px;}
+header .a-bar .a-name{color: #666;}
+.pt-pic{padding:0;}
+.pt-pic .slider{height: 300px;width: 300px;margin: 0 auto;}
+.pt-pic .slider ul{left:-50px;}
+.pt-pic .slider-item{width: 300px;height: 300px;border:none;margin: 0 auto;left: 0;top: 0;}
+.pt-pic .slider-item img{width: 300px;height: 300px;max-height: 300px;max-width: 300px;}
+.pt-pic{position: relative;}
+.pt-pic .slider-point span{background: #ddd;}
+.pt-pic .slider-point span.act{background: #97d84e;}
+.pt-name{border-top:1px solid #ddd;height: 40px;line-height: 40px;border-bottom: 1px solid #ddd;padding: 0 15px;overflow: hidden;}
+.pt-price{border-bottom:1px solid #ddd;height: 40px;line-height: 40px;padding:0 15px;width: auto;}
+.pt-price .price{color: #fe5740;}
+#J_all_price{position: relative;}
+.pt-price .arr{right: 10px;margin:0;top:15px;width: 7px;height: 7px;}
+.pt-promotions{padding:0 15px;width: auto;height: 40px;line-height: 40px;border-bottom: 1px solid #ddd;}
+.pt-promotions .arr{right: 25px;margin:0;top:15px;width: 7px;height: 7px;}
+.full-screen .pt-promotions span{margin: 0;font-size:14px;}
+.pt-promotions .ib,.pt-promotions .icon{line-height: 26px;height: 26px;padding:0 7px;}
+.icon.red{background: #fe5740;}
+.pt-promotions .ib{background: #97d84e;}
+.pt-sku{padding:10px 15px;height: 40px;line-height: 40px;border-bottom:1px solid #ddd;}
+.pt-sku .sku{margin:0 5px 0 0;border-radius: 0;background: #fff;border:1px solid #ddd;}
+.sel-sku-box{background: #fff;border:1px solid #ddd;}
+.arr.top{height: 8px;width: 8px;}
+.pt-sku .close-bar .close,.pt-sku .close-bar{border: none;}
+#buy_form .pt-num{padding:10px 15px !important;}
+#J_fast_buy{display: none;}
+
+#J_buy_btn{background: #fe5740;border-radius: 5px;width: 70%;margin-left: 0;text-indent: 0;}
+#buy_form .pt-btn{left:0;padding:10px 8px;position: fixed;bottom: 0;background: #eee;border-top:1px solid #ddd;height: 40px;line-height: 40px;width:95%;z-index: 9999;}
+#buy_form .pt-btn .btn{border-radius: 5px;}
+.pt-btn .addfav{background-color: none;background: url('heart.png') no-repeat 5px 7px;background-size: 25%;border: none;color: #333;font-size: 16px;text-align: left;padding-left: 30px;margin-left: 15px;}
+.slider .innershadow{box-shadow: none;-webkit-box-shadow:none;}
+.tab .trigger{border-top:1px solid #ddd;border-left:none;border-bottom:1px solid #ddd;border-right: 1px solid #ddd;background: #eee;padding:8px 0;}
+.tab .trigger.act{background: #fff;border-top: 1px solid #ddd;border-right: 1px solid #ddd;border-left: none;}
+.tab .trigger-list{border-left: 1px solid #ddd;}
+.pt-comment{padding: 0;}
+.pt-detail .panel{padding:10px 0;}
+.publish_comment .consult-type span{text-align:center;width:24.4%;border:1px solid #ddd;font-size: 14px;}
+.publish_comment .consult-type span.active{background: #fe5740;}
+
+
+/*分类页*/
+.pt-category .content .item .arr{width: 7px;height: 7px;}
+.pt-category .content{min-height:500px;background: #fff;}
+.pt-category .content em{display: none;}
+.pt-category .content .item{background: #eee;}
+
+/*商品列表页*/
+.a-right .a-search{display: none;}
+.pt-gallery{margin-top:10px;}
+.btn.orange{background: #fe5740;}
+.tab .trigger-list{}
+.pt-gallery .filter-handle{}
+.pt-gallery .arr.down{position:relative;top:-3px;border-color:#fd7204;width: 6px;height: 6px;}
+.pt-list .pt-h-img{width: 120px;height: 120px;border:none;position: absolute;}
+.pt-list .pt-h-img img{max-width: 120px;max-height: 120px;width: 120px;height: 120px;}
+.pt-list .pt-h-item{padding:15px 0;margin-bottom: 15px;border-bottom:1px solid #ddd;position: relative;overflow: hidden;height: 120px;}
+.pt-list .pt-h-price{margin-top:10px;color: #fe5740;font-size: 1.2em;}
+.pt-list .pt-h-info{margin-left:135px;height: 80px;position: relative;}
+
+/*购物车*/
+.cart-pt .cart-empty h1{padding-top: 0;}
+.a-bar .a-right{display: none;}
+.total .fixed-bar{}
+#J_total{left:0;height:45px;line-height:45px;border-top:1px solid #aaa;background: #f3f3f3;bottom: 0;width: 100%;position: fixed;}
+#J_total .fixed-bar{background: none;padding:0;margin:0 10px;width: 95%;border: none;box-shadow: none;}
+.total.fixed .fixed-bar{top:auto;}
+#J_total .fixed-bar .checkout{display: block;}
+#J_total .fixed-bar .checkout{height:30px;line-height:30px;margin-top:7px;width: 80px;background: #fe5740;border-radius: 5px;color: #fff;text-align: center;}
+
+#J_total .fixed-bar .checkout .arr{display: none;}
+.price{color:#fe5740; }
+.total .fixed-bar{line-height: 45px;}
+.pt-list .pt-h-fav{display: none;}
+.pt-h-item .pt-h-del .J-remove{margin:0px 0 0 5px;background-color: none;border: none;background: url('del.jpg') no-repeat;text-indent: -9999px;overflow: hidden;width: 30px;width: 30px;background-size: 80%;padding:0;}
+.pt-list .pt-h-other{display: none;}
+.pt-list .pt-h-bar{margin-left:135px;margin-top: 6px;}
+.pt-num .num{padding:0;}
+#order_promotion{padding:10px;background: #fffaf1;border-bottom:1px solid #ffe7bc;margin-top: 10px;}
+#unused_promotion{padding:10px;background: #fffaf1;}
+.pt-num .num .num-ipt{border-radius: 0;border: none;border-top:1px solid #ddd;border-bottom: 1px solid #ddd;box-shadow: none;-webkit-box-shadow:none;}
+.pt-num .plus, .pt-num .minus{border:1px solid #ddd;}
+.d-line .l-v{padding-right: 25px;}
+#J_pay_change{white-space: nowrap;}
+/*注册登录*/
+.form .c-g{border:1px solid #ddd;border-radius: 5px;}
+.btn-bar{margin-bottom: 30px;}
+.btn-bar .btn{height: 36px;line-height: 36px;}
+
+/*订单详情页*/
+
+.total .price{font-size: 18px;}
+#checkout_total .d-line{line-height: 24px;}
+.gb{background: #eee;}
+.dialog .dialog-head{border-bottom:1px solid #ddd;}
+.coupon-use .panel .btn{height: 30px;line-height: 30px;}
+#usecoupon .input-border{border:1px solid #ddd;height: 24px;line-height: 24px;padding:2px;outline: none;}
+.arr.down{height: 8px;width: 8px;}
+.ob{border-top:none;}

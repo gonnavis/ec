@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?><theme>
+    <name>新世界</name>
+    <id>new</id>
+    <version>0.1</version>
+    <info>上海派浓网络科技邮箱公司</info>
+    <author>优品诚</author>
+    <site>http://www.upin99.com</site>
+    <update_url></update_url>
+
+    <borders>
+            </borders>
+    <views>
+            </views>
+    <config>      
+            </config>
+
+    <widgets>
+                <widget app="" theme="new" file="default.html" slot="3" type="brand_list" order="12" title="" domid="1346304537697" border="__none__" classname="" tpl="default.html" coreid="hot_brand">
+        <![CDATA[a:0:{}]]>
+        </widget>
+                <widget app="" theme="new" file="index.html" slot="5" type="custom_html" order="7" title="" domid="1433488805342" border="__none__" classname="" tpl="default.html" coreid="goodsbox_title2">
+        <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;热卖促销&quot;;}]]>
+        </widget>
+                <widget app="" theme="new" file="index.html" slot="6" type="index_tab_goods" order="8" title="" domid="1433489156760" border="__none__" classname="" tpl="default.html" coreid="goodslist2">
+        <![CDATA[a:13:{s:5:&quot;limit&quot;;s:1:&quot;3&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:3:&quot;tag&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:89:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&amp;tag[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+        </widget>
+                <widget app="" theme="new" file="index.html" slot="4" type="floor_pics" order="6" title="" domid="1433488762777" border="__none__" classname="" tpl="default.html" coreid="piclist2">
+        <![CDATA[a:1:{s:3:&quot;pic&quot;;a:1:{s:13:&quot;1433488734152&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1433488734152&quot;;s:4:&quot;link&quot;;s:27:&quot;%THEME%/images/index_25.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}}}]]>
+        </widget>
+                <widget app="" theme="new" file="index.html" slot="3" type="floor_pics" order="5" title="" domid="1433488694268" border="__none__" classname="" tpl="default.html" coreid="piclist1">
+        <![CDATA[a:1:{s:3:&quot;pic&quot;;a:1:{s:13:&quot;1433488674820&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1433488674820&quot;;s:4:&quot;link&quot;;s:27:&quot;%THEME%/images/index_22.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}}}]]>
+        </widget>
+                <widget app="" theme="new" file="index.html" slot="2" type="index_tab_goods" order="4" title="" domid="1433486517735" border="__none__" classname="" tpl="default.html" coreid="goodslist1">
+        <![CDATA[a:13:{s:5:&quot;limit&quot;;s:1:&quot;3&quot;;s:8:&quot;selector&quot;;s:6:&quot;filter&quot;;s:9:&quot;pricefrom&quot;;s:0:&quot;&quot;;s:7:&quot;priceto&quot;;s:0:&quot;&quot;;s:10:&quot;searchname&quot;;s:0:&quot;&quot;;s:7:&quot;type_id&quot;;s:5:&quot;_ANY_&quot;;s:6:&quot;cat_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:8:&quot;brand_id&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:3:&quot;tag&quot;;a:1:{i:0;s:5:&quot;_ANY_&quot;;}s:12:&quot;goods_filter&quot;;s:89:&quot;pricefrom=&amp;priceto=&amp;searchname=&amp;type_id=_ANY_&amp;cat_id[]=_ANY_&amp;brand_id[]=_ANY_&amp;tag[]=_ANY_&quot;;s:14:&quot;goods_order_by&quot;;s:1:&quot;1&quot;;s:12:&quot;goods_select&quot;;s:0:&quot;&quot;;s:20:&quot;goods_select_linkobj&quot;;s:0:&quot;&quot;;}]]>
+        </widget>
+                <widget app="" theme="new" file="index.html" slot="1" type="custom_html" order="3" title="" domid="1433299158528" border="__none__" classname="" tpl="default.html" coreid="goodsbox_title">
+        <![CDATA[a:1:{s:10:&quot;usercustom&quot;;s:12:&quot;今日推荐&quot;;}]]>
+        </widget>
+                <widget app="" theme="new" file="block/header.html" slot="1" type="search" order="1" title="" domid="1433215415647" border="__none__" classname="" tpl="default.html" coreid="search">
+        <![CDATA[a:0:{}]]>
+        </widget>
+                <widget app="" theme="new" file="index.html" slot="0" type="main_slide" order="2" title="" domid="1433216559961" border="__none__" classname="" tpl="default.html" coreid="focus_pic">
+        <![CDATA[a:1:{s:3:&quot;pic&quot;;a:3:{s:13:&quot;1433216289653&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1433216289653&quot;;s:4:&quot;link&quot;;s:27:&quot;%THEME%/images/index_06.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}s:13:&quot;1433216557052&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1433216557052&quot;;s:4:&quot;link&quot;;s:27:&quot;%THEME%/images/index_06.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}s:13:&quot;1433216558283&quot;;a:4:{s:2:&quot;id&quot;;s:13:&quot;1433216558283&quot;;s:4:&quot;link&quot;;s:27:&quot;%THEME%/images/index_06.jpg&quot;;s:10:&quot;linktarget&quot;;s:0:&quot;&quot;;s:8:&quot;linkinfo&quot;;s:0:&quot;&quot;;}}}]]>
+        </widget>
+                <widget app="" theme="new" file="block/header.html" slot="0" type="logo" order="0" title="" domid="1433215402405" border="__none__" classname="" tpl="default.html" coreid="logo">
+        <![CDATA[a:1:{s:7:&quot;logotxt&quot;;s:25:&quot;请填写logo文字描述&quot;;}]]>
+        </widget>
+            </widgets>
+
+</theme>

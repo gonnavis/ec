@@ -1,0 +1,35 @@
+<ul class="channel-list">
+  <{assign var="do" value='1'}>
+  <{foreach from=$data.goodsRows item=row key=gid name=goodsrow}>
+  
+    <li id="J_secKillGoods">
+    <{assign var=pickey value=$setting.gpic_size|default:'goodsPicS'}>
+      <span class="item-info">
+        
+          <span class="info_num lin_red"><{$do++}></span>
+            <span class="item-title">
+              <a href="<{$row.goodsLink}>" title="<{$row.goodsName}>"><{$row.goodsName}></a>
+            </span>
+
+
+
+
+
+
+
+            <span class="item-price" style="display:none;">
+              <{$setting.texttag}>：<i><{$row.goodsSalePrice|cur}></i>
+            </span>
+            
+            <span class="item-thumb" style="display:none;">
+            <a href="<{$row.goodsLink}>"><img data-src="<{$row[$pickey]}>" alt="<{$row.goodsName}>"　data-img-zoom="true" /></a>
+            </span>   
+
+
+
+
+    </span>
+  
+</li>
+<{/foreach}>
+</ul>

@@ -1,0 +1,31 @@
+<{wap_require file="block/header.html"}>
+<div class="mainbox">
+            <div class="focus_pic">
+                <{wap_widgets id="focus_pic"}>
+            </div>
+            <div class="toplist">
+                <a class="top_ico" href="<{link app=b2c ctl=wap_cart act=index}>"><div class="top_ico_img"><img src="images/index_09.jpg" /></div><div class="toptitle">购物车</div></a>
+                <a class="top_ico" href="<{link app=b2c ctl=wap_member act=orders}>"><div class="top_ico_img"><img src="images/index_11.jpg" /></div><div class="toptitle">订单</div></a>
+                <a class="top_ico" href="<{link app=b2c ctl=wap_member act=index}>"><div class="top_ico_img"><img src="images/index_13.jpg" /></div><div class="toptitle">会员</div></a>
+                <a class="top_ico" href="<{link app=b2c ctl=wap_gallery act=cat}>"><div class="top_ico_img"><img src="images/index_15.jpg" /></div><div class="toptitle">商品类目</div></a>
+            </div>
+
+            <div class="goodslist">
+                <s></s>
+                <h3><{wap_widgets id="goodsbox_title"}></h3>
+                <{wap_widgets id="goodslist1"}>
+
+            </div>
+            <div class="midpics">
+                <div class="piclist fl"><{wap_widgets id="piclist1"}></div>
+                <div class="piclist fr"><{wap_widgets id="piclist2"}></div>
+            </div>
+            <div class="goodslist">
+                <s></s>
+                <h3><{wap_widgets id="goodsbox_title2"}></h3>
+                <{wap_widgets id="goodslist2"}>
+
+            </div>
+            
+        </div>    
+<{wap_require file="block/footer.html"}>

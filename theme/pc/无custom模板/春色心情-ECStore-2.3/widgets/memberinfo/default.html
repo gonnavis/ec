@@ -1,0 +1,137 @@
+
+<div id="membercontact" style="position:absolute;width:304px;height:208px;z-index:9995;left:40%;top:50%;">
+<div style="position:relative; border:1px solid #E0E0E0;">
+	<div style="position:absolute;z-index:9999;top:0;right:0;cursor:pointer;">
+	 <p onclick="closethis()">╳</p>
+    </div>
+	<div style="width:300px;px;background-color:#FFF;border: 1px solid #E8E8E8">
+    <p  style="display:bloack;background-color:#E0E0E0;font-size:18px;font-weight:300; text-align:center;margin-bottom:5px;line-height:30px;">请完善您的联系方式</p>
+	<form id="contactinfo"  method='post' action="<{link app=membercontact ctl=site_info act=saveinfo}>" async="false">
+		
+		<input name="name" type="text"  placeholder="姓名" autofocus style="display:block;width:200px;height:30px;margin-left:auto;margin-right:auto;margin-top:5px;">
+        <input type="mobile" name="mobile" placeholder="手机" style="display:block;width:200px;height:30px;margin-left:auto;margin-right:auto;margin-top:5px;">
+		<input type="email" name="email" placeholder="邮箱" style="display:block;width:200px;height:30px;margin-left:auto;margin-right:auto;margin-top:5px;">
+		<label id="error" style="display:none;font-size:12px;color:red"></label>
+		<p style="font-size:12px;color:red;font-family:'黑体';text-align:center;">邮箱和手机号码不能都为空</p>
+		<input type="submit" value="确定" onclick="postmsg();return false;" style="width:200px;height:30px;border:0px; background-color:#39F;margin-top:8px;display:block;margin-left:auto;margin-right:auto;">
+	</form>
+	</div>
+	</div>
+</div>
+
+<script language="javascript">
+
+var Mask=document.createElement("div");
+//openDiv();
+checkcookie();
+function checkcookie()
+{
+    var isloaded = getCookie("loaded");
+    var allcookie = document.cookie;
+    //alert(allcookie);
+	if((isloaded == null) || (isloaded==""))
+	{	
+	   //alert("loaded is null");
+	   openDiv();
+	}
+    else{
+       
+       var membercontactdiv =  document.getElementById("membercontact");
+       membercontactdiv.style.display = "none";
+       
+    }
+}
+
+function setcookie(sName, sValue)
+{
+    date = new Date();
+   date.setDate(date.getDate()+90);
+   document.cookie = sName+'='+escape(sValue)+'; expires='+date.toGMTString();
+}
+function getCookie(name) 
+{ 
+    var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+ 
+    if(arr=document.cookie.match(reg))
+ 
+        return unescape(arr[2]); 
+    else 
+        return null; 
+} 
+
+
+
+function postmsg()
+{
+   $("#contactinfo").ajaxSubmit(function(message) {
+	document.body.removeChild(Mask);
+	document.getElementById("popup_contact").style.display="none";	
+	document.documentElement.style.overflow="scroll";
+   });
+   /*
+   return false;
+	var re1 = new RegExp("^([/u4E00-/uFA29]|[/uE7C7-/uE7F3]|[a-zA-Z0-9])*$"); 
+	var re1 =  /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	var username=document.getElmentByName("username").value;
+	var email=document.getElmentByName("email").value;
+	var mobile=document.getElmentByName("mobile").value;
+	if((username!="")&&!(username.test(re1)))
+	{
+		document.getElementById("error").innerText="姓名只允许汉字或英文";
+	}
+	if((email!="")&&!(email.test(re2)))
+	{
+		document.getElementById("error").innerText="邮箱格式不正确";
+	}
+	else if((email=="")&&(mobile==""))
+	{
+		document.getElementById("error").innerText="邮箱和手机不能都为空";
+	}
+
+    */
+}
+function openDiv()
+{
+	
+   _scrollWidth = Math.max(document.body.scrollWidth,document.documentElement.scrollWidth);
+   _scrollHeight = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+   Mask.id="mask";
+   Mask.style.width=_scrollWidth+"px";
+   Mask.style.height=_scrollHeight+"px";
+   Mask.style.top="0px";
+   Mask.style.left="0px";
+   Mask.style.position="absolute";
+   Mask.style.zIndex="9990";
+   Mask.style.background="gray";
+   Mask.style.filter="alpha(opacity(40))";
+   Mask.style.opacity="0.40";
+   document.body.appendChild(Mask);
+
+
+}
+
+
+(function(){
+     setpopupadTop();
+    function setpopupadTop(){
+		var ad=document.getElementById("membercontact");
+		cleintHeight = document.documentElement.clientHeight;
+		var adHeight=document.getElementById("membercontact").offsetHeight;
+       ad.tween('top',$(document.body).getScroll().y+100);
+    }
+
+    window.addEvent('scroll',function(){
+        setpopupadTop();
+    })
+})();
+
+function closethis()
+{
+	//alert("this is close");
+	document.body.removeChild(Mask);
+	document.getElementById("membercontact").style.display="none";	
+	document.documentElement.style.overflow="scroll";
+}
+
+
+</script>

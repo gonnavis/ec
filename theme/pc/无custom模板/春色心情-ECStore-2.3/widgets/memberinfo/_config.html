@@ -1,0 +1,13 @@
+<div class="tableform">
+ 
+</div>
+<script>
+    function addPic(){
+        var url='index.php?app=desktop&act=alertpages&goto='+encodeURIComponent("index.php?app=image&ctl=admin_manage&act=image_broswer&type=big");
+        Ex_Loader('modedialog',function(){
+            return new imgDialog(url,{onCallback:function(image_id,image_src){
+                    $('ad_pic').value=image_src;
+            }})	;
+        });
+    }
+</script>

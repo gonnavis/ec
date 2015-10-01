@@ -1,0 +1,20 @@
+<div class="main-slide auto-bind-widget" data-widget-type="Switchable" data-widget-config="{
+     haslrbtn:false,
+     effect:'<{$setting.effectWay}>',
+     autoplay:<{$setting.autoplay}>
+     }" id="main_slide_<{$widgets_id}>">
+    <ul class="slide-list switchable-content">
+        <{foreach from=$data.slider item=item}>
+        <li class="slide-item">
+            <a href="<{if $item.url==''}>#<{else}><{$item.url}><{/if}>">
+                <img src="<{$item.img_url}>" title="<{$item.img_description}>"/>
+            </a>
+        </li>
+        <{/foreach}>
+    </ul>
+    <ul class="slide-triggers switchable-triggerBox">
+        <{foreach from=$data.slider item=item}>
+        <li class="trigger-item"></li> 
+        <{/foreach}> 
+    </ul>
+</div>

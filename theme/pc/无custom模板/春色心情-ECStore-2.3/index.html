@@ -1,0 +1,429 @@
+<{require file="block/header.html"}>
+    <div class="contmain" id="contmains">
+      <div class="cm_left fl"></div>
+      <div class="cm_cent fl"><{widgets id="banner1"}></div>
+      <div class="cm_right fr">
+        <div class="newtab">
+          <h3><{widgets id="newtab_title"}></h3>
+          <{widgets id="gonggao1"}>
+        </div>
+        <div class="qianggou"><{widgets id="qianggou1"}></div>
+      </div>
+    </div>
+
+  <!-- content部分结束 -->
+  <div class="hlife mu">
+    <h3><{widgets id="hlife1"}></h3>
+    <div class="hlife_main">
+      <div class="lifep1 fl"><{widgets id="lifep11"}></div>
+      <div class="lifep2 lop fl">
+        <div class="lopt1"><{widgets id="lifep22"}></div>
+        <div class="lopt2"><{widgets id="lifep33"}></div>
+      </div>
+      <div class="lifep2 fl"><{widgets id="lifep44"}></div>
+      <div class="lifep2 lop fl">
+        <div class="lopt1"><{widgets id="lifep55"}></div>
+        <div class="lopt2"><{widgets id="lifep66"}></div>
+      </div>
+      <div class="lifep2 fl"><{widgets id="lifep77"}></div>
+    </div>
+  </div>
+  <!-- 惠生活结束 -->
+  <div class="liangyou mun" id="lym1">
+    <div class="ly_left fl">
+      <div class="lyl_tl">
+        <div class="ly_title"><{widgets id="lytitle1"}></div>
+        <ul class="ly_list">
+          <{widgets id="lylist1"}>
+        </ul>
+      </div>
+      <div class="lyl_tp"><{widgets id="ylyps1"}></div>
+    </div>
+    <!--中间部分开始  -->
+    <div class="ly_cent fl">
+      <div id="floor5_tab" class="jd_tab">
+      <ul class="jd_tab_triggerBox clearfix">
+          <li class="active"><{widgets id="lyffot_t1"}><b></b></li>
+          <li><{widgets id="lyffot_t2"}><b></b></li>
+          <li><{widgets id="lyffot_t3"}><b></b></li>
+          <li><{widgets id="lyffot_t4"}><b></b></li>
+          
+      </ul>
+      <div class="jd_tab_content">
+      <div class="sm sm2 fore1 curr jd_tab_content_panel">
+      <div class="smc"><{widgets id="lysmcs1"}></div>
+      </div>
+      <div class="sm sm2 fore2 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="lysmcs2"}></div>
+      </div>
+      <div class="sm sm2 fore3 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="lysmcs3"}></div>
+      </div>
+      <div class="sm sm2 fore4 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="lysmcs4"}></div>
+      </div>
+      </div>
+  </div>
+  <script type="text/javascript">
+  $$('.jd_tab').each(function(item,index){
+
+    var triggerBox_li = item.getElement('.jd_tab_triggerBox').getElements('li');
+    
+    triggerBox_li.each(function(item1,index1){
+      item1.addEvent('mouseenter',function(){
+        item1.getParent().getChildren().removeClass('active');
+        item1.addClass('active');
+        item.getElements('.jd_tab_content_panel').setStyle('display','none');
+
+        item.getElements('.jd_tab_content_panel')[index1].setStyle('display','block');
+
+      });
+
+    });
+  })
+</script>
+    </div>
+    <!-- 中间部分结束 -->
+    <div class="ly_right fr">
+      <div class="lyrtop"></div>
+      <div class="lyrpro">
+        <h3><{widgets id="lyrtlis1"}></h3>
+        <div class="jinrimain">
+          <{widgets id="jinrimain1"}>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 粮油部分结束 -->
+<div class="shiyong mun" id="sym1">
+    <div class="ly_left fl">
+      <div class="lyl_tl">
+        <div class="ly_title"><{widgets id="sytitle2"}></div>
+        <ul class="ly_list">
+          <{widgets id="sylist2"}>
+        </ul>
+      </div>
+      <div class="lyl_tp"><{widgets id="slyps2"}></div>
+    </div>
+    <!--中间部分开始  -->
+    <div class="ly_cent fl">
+      <div id="floor5_tab" class="jd_tab">
+      <ul class="jd_tab_triggerBox clearfix">
+          <li class="active"><{widgets id="syffot_t1"}><b></b></li>
+          <li><{widgets id="syffot_t2"}><b></b></li>
+          <li><{widgets id="syffot_t3"}><b></b></li>
+          <li><{widgets id="syffot_t4"}><b></b></li>
+          
+      </ul>
+      <div class="jd_tab_content">
+      <div class="sm sm2 fore1 curr jd_tab_content_panel">
+      <div class="smc"><{widgets id="sysmcs1"}></div>
+      </div>
+      <div class="sm sm2 fore2 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="sysmcs2"}></div>
+      </div>
+      <div class="sm sm2 fore3 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="sysmcs3"}></div>
+      </div>
+      <div class="sm sm2 fore4 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="sysmcs4"}></div>
+      </div>
+      </div>
+  </div>
+  <script type="text/javascript">
+  $$('.jd_tab').each(function(item,index){
+
+    var triggerBox_li = item.getElement('.jd_tab_triggerBox').getElements('li');
+    
+    triggerBox_li.each(function(item1,index1){
+      item1.addEvent('mouseenter',function(){
+        item1.getParent().getChildren().removeClass('active');
+        item1.addClass('active');
+        item.getElements('.jd_tab_content_panel').setStyle('display','none');
+
+        item.getElements('.jd_tab_content_panel')[index1].setStyle('display','block');
+
+      });
+
+    });
+  })
+</script>
+    </div>
+    <!-- 中间部分结束 -->
+    <div class="ly_right fr">
+      <div class="lyrtop"></div>
+      <div class="lyrpro">
+        <h3><{widgets id="syrtlis1"}></h3>
+        <div class="jinrimain">
+          <{widgets id="sinrimain1"}>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 食用饮料部分结束 -->
+  <div class="geren mun" id="grm1">
+    <div class="ly_left fl">
+      <div class="lyl_tl">
+        <div class="ly_title"><{widgets id="grtitle2"}></div>
+        <ul class="ly_list">
+          <{widgets id="grlist2"}>
+        </ul>
+      </div>
+      <div class="lyl_tp"><{widgets id="gryps2"}></div>
+    </div>
+    <!--中间部分开始  -->
+    <div class="ly_cent fl">
+      <div id="floor5_tab" class="jd_tab">
+      <ul class="jd_tab_triggerBox clearfix">
+          <li class="active"><{widgets id="grffot_t1"}><b></b></li>
+          <li><{widgets id="grffot_t2"}><b></b></li>
+          <li><{widgets id="grffot_t3"}><b></b></li>
+          <li><{widgets id="grffot_t4"}><b></b></li>
+          
+      </ul>
+      <div class="jd_tab_content">
+      <div class="sm sm2 fore1 curr jd_tab_content_panel">
+      <div class="smc"><{widgets id="grsmcs1"}></div>
+      </div>
+      <div class="sm sm2 fore2 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="grsmcs2"}></div>
+      </div>
+      <div class="sm sm2 fore3 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="grsmcs3"}></div>
+      </div>
+      <div class="sm sm2 fore4 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="grsmcs4"}></div>
+      </div>
+      </div>
+  </div>
+  <script type="text/javascript">
+  $$('.jd_tab').each(function(item,index){
+
+    var triggerBox_li = item.getElement('.jd_tab_triggerBox').getElements('li');
+    
+    triggerBox_li.each(function(item1,index1){
+      item1.addEvent('mouseenter',function(){
+        item1.getParent().getChildren().removeClass('active');
+        item1.addClass('active');
+        item.getElements('.jd_tab_content_panel').setStyle('display','none');
+
+        item.getElements('.jd_tab_content_panel')[index1].setStyle('display','block');
+
+      });
+
+    });
+  })
+</script>
+    </div>
+    <!-- 中间部分结束 -->
+    <div class="ly_right fr">
+      <div class="lyrtop"></div>
+      <div class="lyrpro">
+        <h3><{widgets id="grrtlis1"}></h3>
+        <div class="jinrimain">
+          <{widgets id="grnrimain1"}>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 个人护理结束 -->
+  <div class="jujia mun" id="jjm1">
+    <div class="ly_left fl">
+      <div class="lyl_tl">
+        <div class="ly_title"><{widgets id="jjtitle2"}></div>
+        <ul class="ly_list">
+          <{widgets id="jjlist2"}>
+        </ul>
+      </div>
+      <div class="lyl_tp"><{widgets id="jjyps2"}></div>
+    </div>
+    <!--中间部分开始  -->
+    <div class="ly_cent fl">
+      <div id="floor5_tab" class="jd_tab">
+      <ul class="jd_tab_triggerBox clearfix">
+          <li class="active"><{widgets id="jjffot_t1"}><b></b></li>
+          <li><{widgets id="jjffot_t2"}><b></b></li>
+          <li><{widgets id="jjffot_t3"}><b></b></li>
+          <li><{widgets id="jjffot_t4"}><b></b></li>
+          
+      </ul>
+      <div class="jd_tab_content">
+      <div class="sm sm2 fore1 curr jd_tab_content_panel">
+      <div class="smc"><{widgets id="jjsmcs1"}></div>
+      </div>
+      <div class="sm sm2 fore2 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="jjsmcs2"}></div>
+      </div>
+      <div class="sm sm2 fore3 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="jjsmcs3"}></div>
+      </div>
+      <div class="sm sm2 fore4 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="jjsmcs4"}></div>
+      </div>
+      </div>
+  </div>
+  <script type="text/javascript">
+  $$('.jd_tab').each(function(item,index){
+
+    var triggerBox_li = item.getElement('.jd_tab_triggerBox').getElements('li');
+    
+    triggerBox_li.each(function(item1,index1){
+      item1.addEvent('mouseenter',function(){
+        item1.getParent().getChildren().removeClass('active');
+        item1.addClass('active');
+        item.getElements('.jd_tab_content_panel').setStyle('display','none');
+
+        item.getElements('.jd_tab_content_panel')[index1].setStyle('display','block');
+
+      });
+
+    });
+  })
+</script>
+    </div>
+    <!-- 中间部分结束 -->
+    <div class="ly_right fr">
+      <div class="lyrtop"></div>
+      <div class="lyrpro">
+        <h3><{widgets id="jjrtlis1"}></h3>
+        <div class="jinrimain">
+          <{widgets id="jjnrimain1"}>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 居家文体结束 -->
+  <div class="muying mun" id="mym1">
+    <div class="ly_left fl">
+      <div class="lyl_tl">
+        <div class="ly_title"><{widgets id="mytitle2"}></div>
+        <ul class="ly_list">
+          <{widgets id="mylist2"}>
+        </ul>
+      </div>
+      <div class="lyl_tp"><{widgets id="myyps2"}></div>
+    </div>
+    <!--中间部分开始  -->
+    <div class="ly_cent fl">
+      <div id="floor5_tab" class="jd_tab">
+      <ul class="jd_tab_triggerBox clearfix">
+          <li class="active"><{widgets id="myffot_t1"}><b></b></li>
+          <li><{widgets id="myffot_t2"}><b></b></li>
+          <li><{widgets id="myffot_t3"}><b></b></li>
+          <li><{widgets id="myffot_t4"}><b></b></li>
+          
+      </ul>
+      <div class="jd_tab_content">
+      <div class="sm sm2 fore1 curr jd_tab_content_panel">
+      <div class="smc"><{widgets id="mysmcs1"}></div>
+      </div>
+      <div class="sm sm2 fore2 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="mysmcs2"}></div>
+      </div>
+      <div class="sm sm2 fore3 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="mysmcs3"}></div>
+      </div>
+      <div class="sm sm2 fore4 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="mysmcs4"}></div>
+      </div>
+      </div>
+  </div>
+  <script type="text/javascript">
+  $$('.jd_tab').each(function(item,index){
+
+    var triggerBox_li = item.getElement('.jd_tab_triggerBox').getElements('li');
+    
+    triggerBox_li.each(function(item1,index1){
+      item1.addEvent('mouseenter',function(){
+        item1.getParent().getChildren().removeClass('active');
+        item1.addClass('active');
+        item.getElements('.jd_tab_content_panel').setStyle('display','none');
+
+        item.getElements('.jd_tab_content_panel')[index1].setStyle('display','block');
+
+      });
+
+    });
+  })
+</script>
+    </div>
+    <!-- 中间部分结束 -->
+    <div class="ly_right fr">
+      <div class="lyrtop"></div>
+      <div class="lyrpro">
+        <h3><{widgets id="myrtlis1"}></h3>
+        <div class="jinrimain">
+          <{widgets id="mynrimain1"}>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 母婴玩具结束 -->
+  <div class="dianqi mun" id="dqm1">
+    <div class="ly_left fl">
+      <div class="lyl_tl">
+        <div class="ly_title"><{widgets id="dqtitle2"}></div>
+        <ul class="ly_list">
+          <{widgets id="dqlist2"}>
+        </ul>
+      </div>
+      <div class="lyl_tp"><{widgets id="dqyps2"}></div>
+    </div>
+    <!--中间部分开始  -->
+    <div class="ly_cent fl">
+      <div id="floor5_tab" class="jd_tab">
+      <ul class="jd_tab_triggerBox clearfix">
+          <li class="active"><{widgets id="dqffot_t1"}><b></b></li>
+          <li><{widgets id="dqffot_t2"}><b></b></li>
+          <li><{widgets id="dqffot_t3"}><b></b></li>
+          <li><{widgets id="dqffot_t4"}><b></b></li>
+          
+      </ul>
+      <div class="jd_tab_content">
+      <div class="sm sm2 fore1 curr jd_tab_content_panel">
+      <div class="smc"><{widgets id="dqsmcs1"}></div>
+      </div>
+      <div class="sm sm2 fore2 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="dqsmcs2"}></div>
+      </div>
+      <div class="sm sm2 fore3 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="dqsmcs3"}></div>
+      </div>
+      <div class="sm sm2 fore4 curr jd_tab_content_panel" style="display: none;">
+        <div class="smc"><{widgets id="dqsmcs4"}></div>
+      </div>
+      </div>
+  </div>
+  <script type="text/javascript">
+  $$('.jd_tab').each(function(item,index){
+
+    var triggerBox_li = item.getElement('.jd_tab_triggerBox').getElements('li');
+    
+    triggerBox_li.each(function(item1,index1){
+      item1.addEvent('mouseenter',function(){
+        item1.getParent().getChildren().removeClass('active');
+        item1.addClass('active');
+        item.getElements('.jd_tab_content_panel').setStyle('display','none');
+
+        item.getElements('.jd_tab_content_panel')[index1].setStyle('display','block');
+
+      });
+
+    });
+  })
+</script>
+    </div>
+    <!-- 中间部分结束 -->
+    <div class="ly_right fr">
+      <div class="lyrtop"></div>
+      <div class="lyrpro">
+        <h3><{widgets id="dqrtlis1"}></h3>
+        <div class="jinrimain">
+          <{widgets id="dqnrimain1"}>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 电器数码结束 -->
+
+ <{require file="block/footer.html"}>

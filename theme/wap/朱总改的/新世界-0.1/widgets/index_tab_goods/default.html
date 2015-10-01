@@ -1,0 +1,22 @@
+<ul class="goodsbox">
+<{foreach from=$data.goodsRows item=row key=gid name=goodsrow}>
+<li>
+    <{assign var=pickey value=$setting.gpic_size|default:'goodsPicS' }>
+    <a href="<{$row.goodsLink}>">
+        <div class="goodspic">
+            <img src="<{$row[$pickey]}>" alt="<{$row.goodsName}>" />
+        </div>
+        <div class="goodsinfo">
+            <div class="goodstitle">
+                <{$row.goodsName}>
+            </div>
+            <div class="goodsprice">
+                <{$row.goodsSalePrice|cur}>
+            </div>
+            <div class="go_btn">了解详情</div>
+        </div>
+    </a>
+</li>
+<{/foreach}>
+    </ul>
+

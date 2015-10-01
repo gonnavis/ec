@@ -1,0 +1,3 @@
+<{foreach from=$data item=toplink key=top_key name=link}>
+	<a  class="rigmlist" href="<{$toplink.top_link_url}>" target="_blank"><{$toplink.top_link_title}></a><{if !$smarty.foreach.link.last}><span class="ptline">|<span><{/if}>
+<{/foreach}>
