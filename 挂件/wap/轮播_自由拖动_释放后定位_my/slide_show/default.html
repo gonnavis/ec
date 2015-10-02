@@ -4,6 +4,9 @@
 	.gvSlideShow .slide {float:left;text-align: center;background:no-repeat center center;}
     .gvSlideShow .slide a{display: block;}
     .gvSlideShow .slide img{width:100%;}
+    .gvSlideShow .slideSjudo {float:left;text-align: center;background:no-repeat center center;}
+    .gvSlideShow .slideSjudo a{display: block;}
+    .gvSlideShow .slideSjudo img{width:100%;}
 	.gvSlideShow .dots{text-align: center;position:absolute;bottom:10px;left: 0px;right:0px;}
 	.gvSlideShow .dot{width:10px;height:10px;background:white;cursor:pointer;display: inline-block;display:-moz-inline-stack;zoom:1;*display:inline;margin-left: 14px;border-radius: 50%;}
 	.gvSlideShow .dot.active{background-color:rgb(237,242,94);}
@@ -101,6 +104,8 @@ var EventUtil = {
             This.target.find('.slides').append('<div class="slide" data-index="'+i+'"><img src="'+This.images[i]+'"></div>');
             This.target.find('.dots').append('<div class="dot" data-index="'+i+'"></div>');
         }
+        This.target.find('.slides').append('<div class="slideSjudo"><img src="'+This.images[0]+'"></div>')
+        This.target.find('.slides').prepend('<div class="slideSjudo"><img src="'+This.images[This.length-1]+'"></div>')
         This.target.find('.slides').append('<div style="float:none;clear:both;"></div>');
         This.target.find('.slide').eq(0).addClass('active');
         This.target.find('.dot').eq(0).addClass('active');
@@ -119,9 +124,10 @@ var EventUtil = {
 
     //event
         jq(window).resize(function(){
-            This.target.find('.slides').width(jq(window).width()*This.images.length);
+            This.target.find('.slides').width(jq(window).width()*(This.length+2));
             This.target.find('.slides').css('left',-1 * jq(window).width()*This.index+'px');
             This.target.find('.slide').width(jq(window).width());
+            This.target.find('.slideSjudo').width(jq(window).width());
         });
         This.target.find('.dot').mouseenter(function(){
             This.slideTo( jq(this).index() );
@@ -199,6 +205,8 @@ var EventUtil = {
         if(This.fullWidth){
             This.target.find('.slide').css('background-size','100% 100%');
         }
+        //
+        This.target.find('.slides').css('left',-1*jq(window).width()+'px');
         //是否自动播放
         if(This.autoPlay){
             This.start();
@@ -215,21 +223,29 @@ var EventUtil = {
             // if(_index==This.index){ //防止连续点击控制点的卡顿现象
             //     return;
             // }
+
+
             This.target.find('.slide').eq(_index).addClass('active').siblings().removeClass('active');
             This.target.find('.dot').eq(_index).addClass('active').siblings().removeClass('active');
-            This.target.find('.slides').stop().animate({'left':-1 * _index * jq(window).width()},This.slideSpeed);
+            This.target.find('.slides').stop().animate({'left':-1 * (_index+1) * jq(window).width()},This.slideSpeed);
+
+            This.index = _index;
+
             if(This.isSliding){
                 This.start();
             }
-            This.index = _index;
         },
         prev: function(){
             var This = this;
 
+            // var currentSlide=This.target.find('.slide[data-index='+This.index+']');
+
             if(This.index!=0){
+                // currentSlide.prepend(This.target.find('.slide[data-index='+This.index-1+']'))
                 This.slideTo(This.index-1);
             }else{
-                This.slideTo(This.images.length-1);
+                // currentSlide.prepend(This.target.find('.slide[data-index='+This.length-1+']'))
+                This.slideTo(This.length-1);
             }
         },
         next: function(){
