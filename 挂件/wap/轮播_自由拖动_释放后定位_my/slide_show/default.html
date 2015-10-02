@@ -11,57 +11,9 @@
 
 <div id="gvSlideShow">
 </div>
-<button class="prev">prev</button>
-<button class="next">next</button>
+<!-- <button class="prev">prev</button>
+<button class="next">next</button> -->
 
-<script type="text/javascript">
-var EventUtil = {
-    addHandler:function(elem,type,handler){
-        if(elem.addEventListener)
-        {
-            elem.addEventListener(type,handler,false);
-        }else if(elem.attachEvent)
-        {
-            elem.attachEvent("on"+type,handler);
-        }else
-        {
-            elem["on"+type]=handler;
-        }
-    },
-    removeHandler:function(elem,type,handler){
-        if(elem.removeEventListener)
-        {
-            elem.removeEventListener(type,handler,false);
-        }else if(elem.detachEvent)
-        {
-            elem.detachEvent("on"+type,handler);
-        }else
-        {
-            elem["on"+type]=null;
-        }
-    },
-    getEvent:function(event){
-        return event?event:window.event;
-    },
-    getTarget:function(event){
-        return event.target||event.srcElement;
-    },
-    preventDefault:function(event){
-        if(event,preventDefault){
-            event.preventDefault();
-        }else{
-            event.returnValue = false;
-        }
-    },
-    stopPropagation:function(event){
-        if(event.stopPropagation){
-            event.stopPropagation();
-        }else{
-            event.cancelBubble=true;
-        }
-    }
-};
-</script>
 
 <script type="text/javascript">
 // GvSlideShow
@@ -128,6 +80,7 @@ var EventUtil = {
 
         var hammer=new Hammer(This.target.find('.slides')[0])
         hammer.on("pan",function(e){
+            This.stop();
             // var slides=This.target.find('.slides');
             // This.cursorX=e.pointers[0].screenX;
             // var distance=
@@ -177,9 +130,9 @@ var EventUtil = {
                     }
                     else{
                         This.target.find('.slides').animate({'left':-1*jq(window).width()},This.slideSpeed,function(){
-                            if(This.isSliding){
-                                This.start();
-                            }
+                            // if(This.isSliding){
+                            This.start();
+                            // }
 
                         });
                     }
@@ -258,9 +211,9 @@ var EventUtil = {
 
                 This.prepare();
 
-                if(This.isSliding){
-                    This.start();
-                }
+                // if(This.isSliding){
+                This.start();
+                // }
 
             });
         },
@@ -278,9 +231,9 @@ var EventUtil = {
 
                 This.prepare();
 
-                if(This.isSliding){
-                    This.start();
-                }
+                // if(This.isSliding){
+                This.start();
+                // }
 
             });
         },
@@ -328,15 +281,15 @@ jq(function(){
     links:links,
     fullWidth:false,
     newWindow:false,
-    autoPlay:false
+    autoPlay:true
   });
 
-  jq('button.prev').click(function(){
-    ss.prev();
-  });
-  jq('button.next').click(function(){
-    ss.next();
-  });
+  // jq('button.prev').click(function(){
+  //   ss.prev();
+  // });
+  // jq('button.next').click(function(){
+  //   ss.next();
+  // });
 
 });
 </script>
