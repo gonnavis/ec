@@ -4,9 +4,6 @@
 	.gvSlideShow .slide {float:left;text-align: center;background:no-repeat center center;}
     .gvSlideShow .slide a{display: block;}
     .gvSlideShow .slide img{width:100%;}
-    .gvSlideShow .slideSjudo {float:left;text-align: center;background:no-repeat center center;}
-    .gvSlideShow .slideSjudo a{display: block;}
-    .gvSlideShow .slideSjudo img{width:100%;}
 	.gvSlideShow .dots{text-align: center;position:absolute;bottom:10px;left: 0px;right:0px;}
 	.gvSlideShow .dot{width:10px;height:10px;background:white;cursor:pointer;display: inline-block;display:-moz-inline-stack;zoom:1;*display:inline;margin-left: 14px;border-radius: 50%;}
 	.gvSlideShow .dot.active{background-color:rgb(237,242,94);}
@@ -14,6 +11,8 @@
 
 <div id="gvSlideShow">
 </div>
+<button class="prev">prev</button>
+<button class="next">next</button>
 
 <script type="text/javascript">
 var EventUtil = {
@@ -89,6 +88,7 @@ var EventUtil = {
         this.isSliding = false;
         This.target = jq('#'+This.id);
         This.test=1;  
+        This.clearfix=jq('<div style="float:none;clear:both;"></div>');
 
         This.pointerX;
         This.isPointerFinal=true;
@@ -104,9 +104,6 @@ var EventUtil = {
             This.target.find('.slides').append('<div class="slide" data-index="'+i+'"><img src="'+This.images[i]+'"></div>');
             This.target.find('.dots').append('<div class="dot" data-index="'+i+'"></div>');
         }
-        This.target.find('.slides').append('<div class="slideSjudo"><img src="'+This.images[0]+'"></div>')
-        This.target.find('.slides').prepend('<div class="slideSjudo"><img src="'+This.images[This.length-1]+'"></div>')
-        This.target.find('.slides').append('<div style="float:none;clear:both;"></div>');
         This.target.find('.slide').eq(0).addClass('active');
         This.target.find('.dot').eq(0).addClass('active');
 
@@ -124,14 +121,11 @@ var EventUtil = {
 
     //event
         jq(window).resize(function(){
-            This.target.find('.slides').width(jq(window).width()*(This.length+2));
+            This.target.find('.slides').width(jq(window).width()*3);
             This.target.find('.slides').css('left',-1 * jq(window).width()*This.index+'px');
             This.target.find('.slide').width(jq(window).width());
-            This.target.find('.slideSjudo').width(jq(window).width());
         });
-        This.target.find('.dot').mouseenter(function(){
-            This.slideTo( jq(this).index() );
-        });
+
         var hammer=new Hammer(This.target.find('.slides')[0])
         hammer.on("pan",function(e){
             // var slides=This.target.find('.slides');
@@ -182,12 +176,18 @@ var EventUtil = {
                         }
                     }
                     else{
-                        This.slideTo(This.index);
+                        This.target.find('.slides').animate({'left':-1*jq(window).width()},This.slideSpeed,function(){
+                            if(This.isSliding){
+                                This.start();
+                            }
+
+                        });
                     }
                 }
 
             }
         });
+
         // hammer.on('swipeleft',function(e){
         //     // console.log(e);
         //     // console.log('swipe');
@@ -206,7 +206,8 @@ var EventUtil = {
             This.target.find('.slide').css('background-size','100% 100%');
         }
         //
-        This.target.find('.slides').css('left',-1*jq(window).width()+'px');
+        This.prepare();
+        This.target.find('.slides').css('left',-1*jq(window).width());
         //是否自动播放
         if(This.autoPlay){
             This.start();
@@ -216,45 +217,72 @@ var EventUtil = {
     }
 
     GvSlideShow.prototype = {
-        slideTo: function(_index){  
-            // console.log('slide');
-            var This = this;
-
-            // if(_index==This.index){ //防止连续点击控制点的卡顿现象
-            //     return;
-            // }
-
-
-            This.target.find('.slide').eq(_index).addClass('active').siblings().removeClass('active');
-            This.target.find('.dot').eq(_index).addClass('active').siblings().removeClass('active');
-            This.target.find('.slides').stop().animate({'left':-1 * (_index+1) * jq(window).width()},This.slideSpeed);
-
-            This.index = _index;
-
-            if(This.isSliding){
-                This.start();
+        prepare:function(){
+            var This=this;
+            This.target.find('.slide').hide();
+            var slides=This.target.find('.slides');
+            var currentSlide=This.target.find('.slide[data-index='+This.index+']');
+            if(This.index==0){
+                var prevSlide=This.target.find('.slide[data-index='+(This.length-1)+']');
             }
+            else{
+                var prevSlide=This.target.find('.slide[data-index='+(This.index-1)+']');
+            }
+            if(This.index==This.length-1){
+                var nextSlide=This.target.find('.slide[data-index=0]');
+            }
+            else{
+                var nextSlide=This.target.find('.slide[data-index='+(This.index+1)+']');
+            }
+            slides.prepend(prevSlide);
+            slides.append(nextSlide);
+            slides.append(This.clearfix);
+            currentSlide.show();
+            prevSlide.show();
+            nextSlide.show();
+            slides.css('left',-1*jq(window).width());
+
+            This.target.find('.dot').eq(This.index).addClass('active').siblings().removeClass('active');
         },
         prev: function(){
             var This = this;
 
-            // var currentSlide=This.target.find('.slide[data-index='+This.index+']');
+            This.target.find('.slides').animate({'left':0},This.slideSpeed,function(){
 
-            if(This.index!=0){
-                // currentSlide.prepend(This.target.find('.slide[data-index='+This.index-1+']'))
-                This.slideTo(This.index-1);
-            }else{
-                // currentSlide.prepend(This.target.find('.slide[data-index='+This.length-1+']'))
-                This.slideTo(This.length-1);
-            }
+                if(This.index==0){
+                    This.index=This.length-1;
+                }
+                else{
+                    This.index=This.index-1;
+                }
+
+                This.prepare();
+
+                if(This.isSliding){
+                    This.start();
+                }
+
+            });
         },
         next: function(){
             var This = this;
-            if(This.index<This.images.length-1){
-                This.slideTo(This.index+1);
-            }else{
-                This.slideTo(0);
-            }
+
+            This.target.find('.slides').stop().animate({'left':-1*jq(window).width()*2},This.slideSpeed,function(){
+
+                if(This.index==This.length-1){
+                    This.index=0;
+                }
+                else{
+                    This.index=This.index+1;
+                }
+
+                This.prepare();
+
+                if(This.isSliding){
+                    This.start();
+                }
+
+            });
         },
         start: function(){
             var This = this;
@@ -301,6 +329,13 @@ jq(function(){
     fullWidth:false,
     newWindow:false,
     autoPlay:false
+  });
+
+  jq('button.prev').click(function(){
+    ss.prev();
+  });
+  jq('button.next').click(function(){
+    ss.next();
   });
 
 });
