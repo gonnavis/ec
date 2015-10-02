@@ -1,0 +1,291 @@
+	<style type="text/css">
+	.gvSlideShow{position: relative;width:100%;overflow: hidden;}
+	.gvSlideShow .slides{position:relative;left:0px;}
+	.gvSlideShow .slide {float:left;text-align: center;background:no-repeat center center;}
+    .gvSlideShow .slide a{display: block;}
+    .gvSlideShow .slide img{width:100%;}
+	.gvSlideShow .dots{text-align: center;position:absolute;bottom:10px;left: 0px;right:0px;}
+	.gvSlideShow .dot{width:10px;height:10px;background:white;cursor:pointer;display: inline-block;display:-moz-inline-stack;zoom:1;*display:inline;margin-left: 14px;border-radius: 50%;}
+	.gvSlideShow .dot.active{background-color:rgb(237,242,94);}
+	</style>
+
+<div id="gvSlideShow">
+</div>
+
+<script type="text/javascript">
+var EventUtil = {
+    addHandler:function(elem,type,handler){
+        if(elem.addEventListener)
+        {
+            elem.addEventListener(type,handler,false);
+        }else if(elem.attachEvent)
+        {
+            elem.attachEvent("on"+type,handler);
+        }else
+        {
+            elem["on"+type]=handler;
+        }
+    },
+    removeHandler:function(elem,type,handler){
+        if(elem.removeEventListener)
+        {
+            elem.removeEventListener(type,handler,false);
+        }else if(elem.detachEvent)
+        {
+            elem.detachEvent("on"+type,handler);
+        }else
+        {
+            elem["on"+type]=null;
+        }
+    },
+    getEvent:function(event){
+        return event?event:window.event;
+    },
+    getTarget:function(event){
+        return event.target||event.srcElement;
+    },
+    preventDefault:function(event){
+        if(event,preventDefault){
+            event.preventDefault();
+        }else{
+            event.returnValue = false;
+        }
+    },
+    stopPropagation:function(event){
+        if(event.stopPropagation){
+            event.stopPropagation();
+        }else{
+            event.cancelBubble=true;
+        }
+    }
+};
+</script>
+
+<script type="text/javascript">
+// GvSlideShow
+
+    function GvSlideShow(param){    
+
+
+        var This = this;  
+
+    //prameter
+        This.id = param.id;
+        This.images = param.images ? param.images : [];
+        This.links = param.links ? param.links : [];
+        This.fullWidth = param.fullWidth == undefined || param.fullWidth == false ? false : true;
+        This.autoPlay = param.autoPlay == undefined || param.autoPlay == true ? true : false;
+        This.newWindow = param.newWindow == undefined || param.newWindow == false ? false : true;
+        This.speed = param.speed?param.speed:3000;
+        This.slideSpeed = param.slideSpeed?param.slideSpeed:500;
+
+    // variable
+        This.index = 0;
+        This.length=This.images.length;
+        This.interval;
+        this.isSliding = false;
+        This.target = jq('#'+This.id);
+        This.test=1;  
+
+        This.pointerX;
+        This.isPointerFinal=true;
+
+    //init before
+        This.target.append('<div class="gvSlideShow"></div>');
+        This.target.find('.gvSlideShow').append('<div class="slides"></div>');
+        This.target.find('.gvSlideShow').append('<div class="dots"></div>');
+
+        //生成轮播图片和控制点
+        for(var i=0; i<This.length; i++){
+            // This.target.find('.slides').append('<div class="slide" data-index="'+i+'" style="background-image:url('+This.images[i]+');"></div>');
+            This.target.find('.slides').append('<div class="slide" data-index="'+i+'"><img src="'+This.images[i]+'"></div>');
+            This.target.find('.dots').append('<div class="dot" data-index="'+i+'"></div>');
+        }
+        This.target.find('.slides').append('<div style="float:none;clear:both;"></div>');
+        This.target.find('.slide').eq(0).addClass('active');
+        This.target.find('.dot').eq(0).addClass('active');
+
+    //生成链接
+        for(var i = This.links.length;i<This.images.length;i++){
+            This.links.push('#');
+        }
+        for(var i=0; i<This.links.length; i++){
+            if(This.links[i]){
+                This.target.find('.slide img').eq(i).wrap('<a href="'+This.links[i]+'" target="'+(This.newWindow?'_blank':'_self')+'"></a>');
+            }else{
+                This.target.find('.slide img').eq(i).wrap('<a target="'+(This.newWindow?'_blank':'_self')+'"></a>');
+            }
+        }
+
+    //event
+        jq(window).resize(function(){
+            This.target.find('.slides').width(jq(window).width()*This.images.length);
+            This.target.find('.slides').css('left',-1 * jq(window).width()*This.index+'px');
+            This.target.find('.slide').width(jq(window).width());
+        });
+        This.target.find('.dot').mouseenter(function(){
+            This.slideTo( jq(this).index() );
+        });
+        var hammer=new Hammer(This.target.find('.slides')[0])
+        hammer.on("pan",function(e){
+            // var slides=This.target.find('.slides');
+            // This.cursorX=e.pointers[0].screenX;
+            // var distance=
+            // slides.css('left',parseInt(slides.css('left'))-e.distance/2);
+            // console.log(e.pointers[0].screenX);
+            // console.log(e.distance);
+            // console.log(e.deltaX);
+            // console.log(e);
+            // console.log(e.isFirst);
+            // console.log(e.isFinal);
+            if(This.isPointerFinal==true){
+                This.pointerX=e.pointers[0].screenX;
+            }else{
+                var distance=e.pointers[0].screenX-This.pointerX;
+
+                var slides=This.target.find('.slides');
+                slides.css('left',parseInt(slides.css('left'))+distance);
+
+                This.pointerX=e.pointers[0].screenX;
+            }
+            This.isPointerFinal=e.isFinal;
+            if(e.isFinal){
+
+            //swipe
+                // console.log(e.velocity);
+                if(Math.abs(e.velocity)>=0.65){
+                    if(e.offsetDirection==4){
+                        This.next();
+                    }else if(e.offsetDirection==2){
+                        This.prev();
+                    }
+                }
+            //pan
+                else{
+                    // console.log('pan');
+                    // console.log(e);
+                    // console.log(' ');
+                    // console.log(e.distance);
+                    // console.log(jq(window).width()/2);
+                    // console.log(' ');
+                    if(e.distance>jq(window).width()/2){
+                        if(e.offsetDirection==4){
+                            This.next();
+                        }else if(e.offsetDirection==2){
+                            This.prev();
+                        }
+                    }
+                    else{
+                        This.slideTo(This.index);
+                    }
+                }
+
+            }
+        });
+        // hammer.on('swipeleft',function(e){
+        //     // console.log(e);
+        //     // console.log('swipe');
+        //     This.next();
+        // })
+        // hammer.on('swiperight',function(e){
+        //     // console.log(e);
+        //     // console.log('swipe');
+        //     This.prev();
+        // })
+
+    //init after
+        jq(window).resize();
+        //图片是否拉伸至全宽
+        if(This.fullWidth){
+            This.target.find('.slide').css('background-size','100% 100%');
+        }
+        //是否自动播放
+        if(This.autoPlay){
+            This.start();
+        }
+        //
+
+    }
+
+    GvSlideShow.prototype = {
+        slideTo: function(_index){  
+            // console.log('slide');
+            var This = this;
+
+            // if(_index==This.index){ //防止连续点击控制点的卡顿现象
+            //     return;
+            // }
+            This.target.find('.slide').eq(_index).addClass('active').siblings().removeClass('active');
+            This.target.find('.dot').eq(_index).addClass('active').siblings().removeClass('active');
+            This.target.find('.slides').stop().animate({'left':-1 * _index * jq(window).width()},This.slideSpeed);
+            if(This.isSliding){
+                This.start();
+            }
+            This.index = _index;
+        },
+        prev: function(){
+            var This = this;
+
+            if(This.index!=0){
+                This.slideTo(This.index-1);
+            }else{
+                This.slideTo(This.images.length-1);
+            }
+        },
+        next: function(){
+            var This = this;
+            if(This.index<This.images.length-1){
+                This.slideTo(This.index+1);
+            }else{
+                This.slideTo(0);
+            }
+        },
+        start: function(){
+            var This = this;
+            clearInterval(This.interval);
+            This.interval = setInterval(function(){
+                This.next();
+            },This.speed);
+            This.isSliding = true;
+        },
+        stop: function(){
+            var This = this;
+            clearInterval(This.interval);
+            This.isSliding = false;
+        },
+        setSpeed: function(_speed){
+            var This = this;
+            This.speed = _speed;
+            if(This.isSliding){
+                This.start();
+            }
+        },
+        setSlideSpeed: function(_slideSpeed){
+            var This = this;
+            This.slideSpeed = _slideSpeed;
+        }
+    }
+
+</script>
+
+<script type="text/javascript">
+jq(function(){
+
+  var images=[];
+  var links=[];
+  <{foreach from=$data.pic item=parent key=parentId}>
+    images.push( '<{$parent.link}>' );
+    links.push( '<{$parent.linktarget}>' );
+  <{/foreach}>
+
+  var ss = new GvSlideShow({
+    id:'gvSlideShow',
+    images:images,
+    links:links,
+    fullWidth:false,
+    newWindow:false,
+    autoPlay:false
+  });
+
+});
+</script>
